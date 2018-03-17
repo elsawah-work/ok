@@ -45,7 +45,7 @@ img.fnone{float:none !important}
 /*************** default theme **********************/
 .dd{border:1px solid #bababa;margin-top:-3px;}
 .dd .divider{border-left:1px solid #bababa; right:24px;}
-.dd .ddArrow{width:8px;height:5px; margin-top:-2px;right:8px; background:url(../img/select-arrow.png) no-repeat;}
+.dd .ddArrow{width:8px;height:5px; margin-top:-2px;right:8px; background:url(https://rawgit.com/elsawah-work/ok/master/img/select-arrow.png) no-repeat;}
 .dd .ddTitle{color:#333;}
 .dd .ddTitle .ddTitleText{padding:2px 15px 2px 15px;}
 .dd .ddTitle .ddTitleText .ddTitleText{padding:0;}

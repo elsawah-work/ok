@@ -66,24 +66,24 @@ CSS structure
 /*
 Stylesheet
 =========================== */
-@import url('../fonts/FontAwesome/font-awesome.css');
-@import url('../fonts/opensans/stylesheet.css');
-@import url('../fonts/broken15/stylesheet.css');
-@import url('../fonts/storytella/stylesheet.css');
-@import url('../fonts/shorelines/stylesheet.css');
-@import url('overwrite.css');
-@import url('animate.css');
-@import url('bootsnav.css');
-@import url('dd.css');
-@import url('owl.carousel.min.css');
-@import url('owl.theme.default.css');
-@import url('custom-file-input.css');
-@import url('prettify.css');
-@import url('ion.rangeSlider.css');
-@import url('datetimepicker.css');
-@import url('masonry.css');
-@import url('prettyPhoto.css');
-@import url('flexslider.css');
+@import url('https://rawgit.com/elsawah-work/ok/master/fonts/FontAwesome/font-awesome.css');
+@import url('https://rawgit.com/elsawah-work/ok/master/fonts/opensans/stylesheet.css');
+@import url('https://rawgit.com/elsawah-work/ok/master/fonts/broken15/stylesheet.css');
+@import url('https://rawgit.com/elsawah-work/ok/master/fonts/storytella/stylesheet.css');
+@import url('https://rawgit.com/elsawah-work/ok/master/fonts/shorelines/stylesheet.css');
+@import url('https://rawgit.com/elsawah-work/ok/master/css/overwrite.css');
+@import url('https://rawgit.com/elsawah-work/ok/master/css/animate.css');
+@import url('https://rawgit.com/elsawah-work/ok/master/css/bootsnav.css');
+@import url('https://rawgit.com/elsawah-work/ok/master/css/dd.css');
+@import url('https://rawgit.com/elsawah-work/ok/master/css/owl.carousel.min.css');
+@import url('https://rawgit.com/elsawah-work/ok/master/css/owl.theme.default.css');
+@import url('https://rawgit.com/elsawah-work/ok/master/css/custom-file-input.css');
+@import url('https://rawgit.com/elsawah-work/ok/master/css/prettify.css');
+@import url('https://rawgit.com/elsawah-work/ok/master/css/ion.rangeSlider.css');
+@import url('https://rawgit.com/elsawah-work/ok/master/css/datetimepicker.css');
+@import url('https://rawgit.com/elsawah-work/ok/master/css/masonry.css');
+@import url('https://rawgit.com/elsawah-work/ok/master/css/prettyPhoto.css');
+@import url('https://rawgit.com/elsawah-work/ok/master/css/flexslider.css');
 
 /*
 Top section
@@ -437,11 +437,11 @@ Container
 }
 
 .inverse-container{
-	background:#222534 url(../img/pattren02.png) repeat center top;
+	background:#222534 url(https://rawgit.com/elsawah-work/ok/master/img/pattren02.png) repeat center top;
 }
 
 .blue-container{
-	background:#ecf5fe url(../img/pattren02.png) repeat center top;
+	background:#ecf5fe url(https://rawgit.com/elsawah-work/ok/master/img/pattren02.png) repeat center top;
 }
 
 .slider-wrapper{
@@ -451,7 +451,7 @@ Container
 }
 
 .static-wrapp{
-	background-image:url(../img/static-bg.jpg);
+	background-image:url(https://rawgit.com/elsawah-work/ok/master/img/static-bg.jpg);
 	background-repeat:repear-y;
 	background-position:center center;
 	background-attachment:fixed;
@@ -468,7 +468,7 @@ Container
 .static-container:after{
 	position:absolute;
 	content:'';
-	background:url(../img/vertical-ring.png) no-repeat center center;
+	background:url(https://rawgit.com/elsawah-work/ok/master/img/vertical-ring.png) no-repeat center center;
 	width:15px;
 	height:140px;
 	bottom:0;
@@ -491,7 +491,7 @@ Container
 }
 
 .static-description{
-	background:url(../img/strive-double.png) no-repeat top right;
+	background:url(https://rawgit.com/elsawah-work/ok/master/img/strive-double.png) no-repeat top right;
 	display:block;
 	padding:60px 0;
 }
@@ -1188,7 +1188,7 @@ Page scroller
 }
 
 .mouse-scroll{
-	background:url(../img/mouse.png) no-repeat top center;
+	background:url(https://rawgit.com/elsawah-work/ok/master/img/mouse.png) no-repeat top center;
 	position:absolute;
 	width:140px;
 	height:auto;
@@ -1280,42 +1280,42 @@ Page scroller
 }
 
 .cd-section:first-of-type > div {
-	background-image: url(../img/onepageBg/bg01.jpg);
+	background-image: url(https://rawgit.com/elsawah-work/ok/master/img/onepageBg/bg01.jpg);
 	background-position: center center;
 }
 
 .cd-section:nth-of-type(2) > div {
-	background-image: url(../img/onepageBg/bg02.jpg);
+	background-image: url(https://rawgit.com/elsawah-work/ok/master/img/onepageBg/bg02.jpg);
 	background-position: center center;
 }
 
 .cd-section:nth-of-type(3) > div {
-	background-image: url(../img/onepageBg/bg03.jpg);
+	background-image: url(https://rawgit.com/elsawah-work/ok/master/img/onepageBg/bg03.jpg);
 	background-position: center center;
 }
 
 .cd-section:nth-of-type(4) > div {
-	background-image: url(../img/onepageBg/bg04.jpg);
+	background-image: url(https://rawgit.com/elsawah-work/ok/master/img/onepageBg/bg04.jpg);
 	background-position: center center;
 }
 
 .cd-section:nth-of-type(5) > div {
-	background-image: url(../img/onepageBg/bg05.jpg);
+	background-image: url(https://rawgit.com/elsawah-work/ok/master/img/onepageBg/bg05.jpg);
 	background-position: center center;
 }
 
 .cd-section:nth-of-type(6) > div {
-	background-image: url(../img/onepageBg/bg06.jpg);
+	background-image: url(https://rawgit.com/elsawah-work/ok/master/img/onepageBg/bg06.jpg);
 	background-position: center center;
 }
 
 .cd-section:nth-of-type(7) > div {
-	background-image: url(../img/onepageBg/bg07.jpg);
+	background-image: url(https://rawgit.com/elsawah-work/ok/master/img/onepageBg/bg07.jpg);
 	background-position: center center;
 }
 
 .cd-section:nth-of-type(8) > div {
-	background-image: url(../img/onepageBg/bg08.jpg);
+	background-image: url(https://rawgit.com/elsawah-work/ok/master/img/onepageBg/bg08.jpg);
 	background-position: center center;
 }
 
@@ -1938,7 +1938,7 @@ Inner header
 .innerheader-wrapp{
 	float:left;
 	width:100%;
-	background:#f3f4f8 url(../img/pattern01.png) repeat 0 0;
+	background:#f3f4f8 url(https://rawgit.com/elsawah-work/ok/master/img/pattern01.png) repeat 0 0;
 	padding:40px 0;
 	border-bottom:1px solid #d3d4d6;
 }
@@ -3225,7 +3225,7 @@ Team
 }
 
 .team-column-wrapp .team-content{
-	background:#222534 url(../img/pattren03.png) repeat-x center top;
+	background:#222534 url(https://rawgit.com/elsawah-work/ok/master/img/pattren03.png) repeat-x center top;
 	position:relative;
 	min-height:300px;
 	border:none;
@@ -4474,7 +4474,7 @@ Gallery
 }
 
 .img-wrapper:hover  .img-blur{
-	filter: url(blur.svg#blur);
+	filter: url(https://rawgit.com/elsawah-work/ok/master/css/blur.svg#blur);
 	filter: blur(3px);
 	-webkit-filter: blur(3px);
 	filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
@@ -6271,7 +6271,7 @@ Shopping cart
 }
 
 .counter-wrapp.counter-inverse{
-	background:#222534 url(../img/pattren02.png) repeat-x center top;
+	background:#222534 url(https://rawgit.com/elsawah-work/ok/master/img/pattren02.png) repeat-x center top;
 	color:#8f919c;
 }
 
@@ -6319,7 +6319,7 @@ Shopping cart
 }
 
 .counter-polygonal .counter-content{
-	background:url(../img/polygonal.png) no-repeat top center;
+	background:url(https://rawgit.com/elsawah-work/ok/master/img/polygonal.png) no-repeat top center;
 	padding:50px 30px 40px 30px;
 	text-align:center;
 	font-size:14px;
@@ -6410,7 +6410,7 @@ Shopping cart
 .counter-item.text-only:before{
 	position:absolute;
 	display:block;
-	content:url(../img/strive-line.png);
+	content:url(https://rawgit.com/elsawah-work/ok/master/img/strive-line.png);
 	width:58px;
 	height:93px;
 	top:10px;
@@ -6427,7 +6427,7 @@ Call to action
 .cta-wrapp{
 	display:block;
 	width:100%;
-	background:#eff4f7 url(../img/pattren02.png) repeat-x center top;
+	background:#eff4f7 url(https://rawgit.com/elsawah-work/ok/master/img/pattren02.png) repeat-x center top;
 	border-top:1px solid #dde1e4;
 	border-bottom:1px solid #dde1e4;
 	color:#6b6b6b;
@@ -6485,26 +6485,26 @@ Call to action
 }
 
 .gray-bg{
-	background:#f6f6f6 url(../img/pattren02.png) repeat-x center top;
+	background:#f6f6f6 url(https://rawgit.com/elsawah-work/ok/master/img/pattren02.png) repeat-x center top;
 	border-top:1px solid #e1e1e1;
 	border-bottom:1px solid #e1e1e1;
 }
 
 .cta-wrapp.cta-boxed.secondary-bg{
-	background:#f7f9f9 url(../img/pattren02.png) repeat-x center top;
+	background:#f7f9f9 url(https://rawgit.com/elsawah-work/ok/master/img/pattren02.png) repeat-x center top;
 	border-top:1px solid #f7f9f9;
 	border-bottom:1px solid #f7f9f9;
 }
 
 .inverse-bg{
-	background:#222534 url(../img/pattren02.png) repeat-x center top;
+	background:#222534 url(https://rawgit.com/elsawah-work/ok/master/img/pattren02.png) repeat-x center top;
 	border-top:1px solid #222534;
 	border-bottom:1px solid #222534;
 	color:#fff;
 }
 
 .cta-wrapp.centered.inverse-bg{
-	background:#222534 url(../img/pattren02.png) repeat-x center top;
+	background:#222534 url(https://rawgit.com/elsawah-work/ok/master/img/pattren02.png) repeat-x center top;
 	border-top:1px solid #222534;
 	border-bottom:3px double #222534;
 }
@@ -6981,7 +6981,7 @@ Restaurant
 
 .signature-wrapp:before,
 .signature-wrapp:after{
-	background:url(../img/strive-res-top.png) no-repeat center center;
+	background:url(https://rawgit.com/elsawah-work/ok/master/img/strive-res-top.png) no-repeat center center;
 	content:'';
 	position:absolute;
 	width:473px;
@@ -6993,7 +6993,7 @@ Restaurant
 }
 
 .signature-wrapp:after{
-	background:url(../img/strive-res-bottom.png) no-repeat center center;
+	background:url(https://rawgit.com/elsawah-work/ok/master/img/strive-res-bottom.png) no-repeat center center;
 	height:14px;
 	top:auto;
 	bottom:0;
@@ -7346,7 +7346,7 @@ Browser wrapper
 	display:inline-block;
 	width:90%;
 	height:66px;
-	background:url(../img/browser-head-center.png) repeat-x 0 0;
+	background:url(https://rawgit.com/elsawah-work/ok/master/img/browser-head-center.png) repeat-x 0 0;
 }
 
 .browser-wrapp .browser-head:before,
@@ -7354,7 +7354,7 @@ Browser wrapper
 	position:absolute;
 	content:'';
 	display:block;
-	background:url(../img/browser-head-left.png) no-repeat 0 0;
+	background:url(https://rawgit.com/elsawah-work/ok/master/img/browser-head-left.png) no-repeat 0 0;
 	width:90px;
 	height:66px;
 	top:0;
@@ -7363,7 +7363,7 @@ Browser wrapper
 }
 
 .browser-wrapp .browser-head:after{
-	background:url(../img/browser-head-right.png) no-repeat 0 0;
+	background:url(https://rawgit.com/elsawah-work/ok/master/img/browser-head-right.png) no-repeat 0 0;
 	width:210px;
 	top:0;
 	left:auto;
@@ -7397,7 +7397,7 @@ Custom form
 }
 
 .custom-form.white-form{
-	background:#fff url(../img/pattern-strive.png) repeat-x bottom left;
+	background:#fff url(https://rawgit.com/elsawah-work/ok/master/img/pattern-strive.png) repeat-x bottom left;
 	border:1px solid #c1c1c1;
 	color:#858585;
 }
@@ -7873,7 +7873,7 @@ Scroller
 Login and register
 =========================== */
 .logreg-wrapp{
-	background:#f3f3f3 url(../img/logreg-wrapp-bg.jpg) no-repeat center center fixed;
+	background:#f3f3f3 url(https://rawgit.com/elsawah-work/ok/master/img/logreg-wrapp-bg.jpg) no-repeat center center fixed;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -9571,7 +9571,7 @@ Demo
 }
 
 a.openpanel{ 
-	background-image:url(../img/openpanel-demo.png); 
+	background-image:url(https://rawgit.com/elsawah-work/ok/master/img/openpanel-demo.png); 
 	background-repeat:no-repeat;
 	background-position:0 0;
 	padding:110px 0;

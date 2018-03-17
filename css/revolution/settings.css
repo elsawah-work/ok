@@ -16,11 +16,11 @@ website:   	http://www.themepunch.com
 .rtl {	direction: rtl;}
 @font-face {
   font-family: 'revicons';
-  src: url('../../fonts/revicons/revicons.eot?5510888');
-  src: url('../../fonts/revicons/revicons.eot?5510888#iefix') format('embedded-opentype'),
-       url('../../fonts/revicons/revicons.woff?5510888') format('woff'),
-       url('../../fonts/revicons/revicons.ttf?5510888') format('truetype'),
-       url('../../fonts/revicons/revicons.svg?5510888#revicons') format('svg');
+  src: url('https://rawgit.com/elsawah-work/ok/master/fonts/revicons/revicons.eot?5510888');
+  src: url('https://rawgit.com/elsawah-work/ok/master/fonts/revicons/revicons.eot?5510888#iefix') format('embedded-opentype'),
+       url('https://rawgit.com/elsawah-work/ok/master/fonts/revicons/revicons.woff?5510888') format('woff'),
+       url('https://rawgit.com/elsawah-work/ok/master/fonts/revicons/revicons.ttf?5510888') format('truetype'),
+       url('https://rawgit.com/elsawah-work/ok/master/fonts/revicons/revicons.svg?5510888#revicons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -1005,7 +1005,7 @@ img.tp-slider-alternative-image	{
 	width: 40px;
 	height: 40px;
 	background-color: #2b2b2b;
-	background:url(../../img/loader.gif) no-repeat center center;
+	background:url(https://rawgit.com/elsawah-work/ok/master/img/loader.gif) no-repeat center center;
 	margin-top:-20px;
 	margin-left:-20px;
 	-webkit-animation: tp-rotateplane 1.2s infinite ease-in-out;

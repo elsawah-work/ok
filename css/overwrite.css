@@ -2648,7 +2648,7 @@ footer .form-control::-webkit-input-placeholder {
 }
 .jcf-scrollbar-vertical .jcf-scrollbar-dec,
 .jcf-scrollbar-vertical .jcf-scrollbar-inc {
-	background-image:url(../img/scrollbar-dec.png);
+	background-image:url(https://rawgit.com/elsawah-work/ok/master/img/scrollbar-dec.png);
 	background-color: #b8b8b8;
 	background-position:center center;
 	background-repeat:no-repeat;
@@ -2659,12 +2659,12 @@ footer .form-control::-webkit-input-placeholder {
 	cursor:pointer;
 }
 .jcf-scrollbar-vertical .jcf-scrollbar-inc {
-	background-image:url(../img/scrollbar-inc.png);
+	background-image:url(https://rawgit.com/elsawah-work/ok/master/img/scrollbar-inc.png);
 	top: auto;
 	bottom: 0;
 }
 .jcf-scrollbar-vertical .jcf-scrollbar-handle {
-	background: #cccccc url(../img/scrollbar-handle.png) no-repeat center center;
+	background: #cccccc url(https://rawgit.com/elsawah-work/ok/master/img/scrollbar-handle.png) no-repeat center center;
 	height: 1px;
 	width: 15px;
 	cursor:pointer;
@@ -2760,7 +2760,7 @@ footer .form-control::-webkit-input-placeholder {
 	position: absolute;
 	text-align: center;
 	cursor: pointer;
-	background:url(../img/select-arrow.png) no-repeat center center;
+	background:url(https://rawgit.com/elsawah-work/ok/master/img/select-arrow.png) no-repeat center center;
 	width: 40px;
 	bottom: 0;
 	right: 0;
