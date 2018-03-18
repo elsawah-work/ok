@@ -4213,6 +4213,8 @@ Pricing
 	-moz-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.25);
 	box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.25);
 	z-index:2;
+    left: 50%;
+    text-align: right;
 }
 
 .pricing-2column-wrapp .pricing-2-column ul{
@@ -4231,7 +4233,7 @@ Pricing
 
 .pricing-2column-wrapp .pricing-2-column ul li .fa{
 	position:absolute;
-	left:0;
+    right: -24px;
 	top:5px;
 }
 
@@ -4260,17 +4262,17 @@ Pricing
 }
 
 .pricing-2column-wrapp .pricing-2-column.absolute-2column{
-	position:absolute;
-	background:#f8f9f9;
-	border-right:1px solid #e3e3e5;
-	border-bottom:1px solid #e3e3e5;
-	left:50%;
-	bottom:0;
-	color:#858585;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
-	z-index:1;
+    position: absolute;
+    background: #f8f9f9;
+    border-right: 1px solid #e3e3e5;
+    border-bottom: 1px solid #e3e3e5;
+    bottom: 0;
+    color: #858585;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    z-index: 1;
+    left: 0%;
 }
 
 .pricing-2column-wrapp .pricing-2-column.absolute-2column h1,
