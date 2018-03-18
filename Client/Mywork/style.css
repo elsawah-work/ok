@@ -2403,6 +2403,8 @@ Icon with text
 
 .abslute-icon.ai-2x{
 	padding-left:60px;
+    text-align: right;
+    right: 52px;
 }
 
 .abslute-icon.text-right.ai-2x{
@@ -2478,9 +2480,9 @@ Icon with text
 }
 
 .abslute-icon .fa{
-	position:absolute;
-	left:0;
-	top:10px;
+    position: absolute;
+    top: 10px;
+    margin-left: 17px;
 }
 
 .abslute-icon.text-right .fa{
@@ -8268,13 +8270,13 @@ footer .recent-portfolio{
 
 footer .office-contact li{
 	list-style:none;
-	margin:0 0 20px 0;
+	margin:0 28px 20px 0;
 	padding:0 0 0 35px;
 	position:relative;
 }
 
 footer .office-contact li:last-child{
-	margin:0;
+    margin: 0 28px 0 0;
 }
 
 footer .office-contact li h6{
@@ -8310,7 +8312,7 @@ footer .link-list{
 
 footer .link-list li{
 	margin:0;
-	padding:0 30px 0 0;
+	padding:0 0 0 0;
 	list-style:none;
 	float:left;
 	width:50%;

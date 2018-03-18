@@ -1649,7 +1649,7 @@ mark {
 }
 
 .text-left {
-    text-align: left
+    text-align: center
 }
 
 .text-right {
@@ -1796,7 +1796,8 @@ ul ul {
 
 .list-unstyled {
     padding-left: 0;
-    list-style: none
+    list-style: none;
+    margin-top: 32px;
 }
 
 .list-inline {
@@ -2483,7 +2484,8 @@ pre code {
         width: 83.33333333%
     }
     .col-md-9 {
-        width: 75%
+        width: 75%;
+        float: right;
     }
     .col-md-8 {
         width: 66.66666667%
@@ -2503,7 +2505,9 @@ pre code {
         float: right;
     }
     .col-md-3 {
-        width: 25%
+        width: 25%;
+        float: right;
+        text-align: right;
     }
     .col-md-2 {
         width: 16.66666667%
@@ -3231,7 +3235,8 @@ input[type=search] {
 }
 
 .form-group {
-    margin-bottom: 15px
+    margin-bottom: 15px;
+    direction: rtl;
 }
 
 .checkbox,
