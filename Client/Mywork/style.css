@@ -2571,7 +2571,7 @@ Icon with text
 	color:#fff;
 	border-radius:50%;
 	top:-25px;
-	left:-15px;
+	right:-15px;
 	z-index:2;
 }
 
