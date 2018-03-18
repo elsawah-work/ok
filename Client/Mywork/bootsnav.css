@@ -122,8 +122,8 @@ nav.navbar.bootsnav ul.nav ul.dropdown-menu > li > a{
 
 ul.menu-col{
     padding: 0;
-    margin: 0;
     list-style: none;
+    margin-top: 31px;
 }
 
 ul.menu-col li a{
@@ -787,6 +787,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         content: "\f0d7";
         margin-left: 5px;
         margin-top: 2px;
+        float: left;
     }
     
     nav.navbar.bootsnav li.dropdown ul.dropdown-menu{
@@ -885,7 +886,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
     
     nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a{
-        text-align: left;
+        text-align: right;
         padding: 5px 0;
         display: block;
         width: 100%;
@@ -895,7 +896,9 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
     
 	nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li i{
-		margin-right:5px;
+        margin-left: 5px;
+        float: right;
+        margin-top: 5px;
 	}
 	
     nav.navbar.bootsnav.on ul.dropdown-menu.megamenu-content .content{
@@ -1885,6 +1888,7 @@ nav.navbar.navbar-inverse.bootsnav ul.dropdown-menu.megamenu-content .content ul
 nav.navbar.navbar-inverse.bootsnav ul.dropdown-menu.megamenu-content .col-menu h6.title,
 nav.navbar.navbar-inverse.bootsnav.navbar-sidebar ul.nav li.dropdown ul.dropdown-menu li a{
 	color:#fcfcfc;
+    float: right;
 }
 
 nav.navbar.navbar-inverse.bootsnav .copyright{
