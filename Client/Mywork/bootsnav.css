@@ -1914,6 +1914,7 @@ nav.navbar.navbar-inverse.bootsnav ul.cart-list > li.total{
 nav.navbar.navbar-inverse.bootsnav .top-search{
     background-color: #282b3b;
 	border-bottom:1px solid #363a4a;
+    direction: rtl;
 }
 
 nav.navbar.navbar-inverse.bootsnav .top-search input.form-control{
