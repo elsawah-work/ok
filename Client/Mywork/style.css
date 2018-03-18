@@ -8287,7 +8287,7 @@ footer .office-contact li .fa{
 	position:absolute;
 	font-size:24px;
 	line-height:24px;
-	left:0;
+    right: -28px;
 	top:0;
 }
 
@@ -8357,6 +8357,7 @@ footer .form-subscribe .input-subscribe{
   -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
        -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
           transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    direction: rtl;
 }
 
 footer .social-network{
