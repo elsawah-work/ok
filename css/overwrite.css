@@ -2763,7 +2763,7 @@ footer .form-control::-webkit-input-placeholder {
 	background:url(https://rawgit.com/elsawah-work/ok/master/img/select-arrow.png) no-repeat center center;
 	width: 40px;
 	bottom: 0;
-	right: 0;
+	left: 0;
 	top: 0;
 }
 body > .jcf-select-drop {
