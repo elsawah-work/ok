@@ -230,7 +230,7 @@
 							// Set type2
 							if($(this).hasClass("type2")){
 								$(".value-progress",this).animate({
-									"left"  : val_progress + '%'
+									"right"  : val_progress + '%'
 								}, {
 									duration: 1000
 								});
@@ -239,7 +239,7 @@
 							// Set type3
 							if($(this).hasClass("type3")){
 								$(".circle",this).animate({
-									"left"  : val_progress + '%'
+									"right"  : val_progress + '%'
 								}, {
 									duration: 2000
 								});
