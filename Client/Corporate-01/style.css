@@ -8440,7 +8440,7 @@ footer .social-network .fa-flickr{
 .subfooter{
 	background:#343747;
 	color:#9496a0;
-	padding:30px 0;
+	padding:8px 0;
 	margin-top:20px;
 }
 
@@ -8889,11 +8889,11 @@ Tablet (portrait and landscape)
 		margin-top:20px;
 	}
 	.subfooter ul{
-		float:left;
-		margin:10px 0 0 15px;
+        float: right;
+        margin: 10px 17px 0 15px;
 	}
 	.subfooter ul li{
-		margin:0 30px 0 0;
+		margin:0 0 0 30px;
 	}
 	.counter-inverse .counter-content{
 		width:50%;
