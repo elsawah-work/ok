@@ -8457,9 +8457,9 @@ footer.soft-container .subfooter{
 
 .subfooter ul{
 	float:right;
-	margin:10px 0 0 0;
+	margin:10px 30px 0 0;
 	padding:0;
-    margin-right: -24%;
+ 
 }
 
 .subfooter ul li{
