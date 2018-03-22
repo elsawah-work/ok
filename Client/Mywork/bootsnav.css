@@ -1739,6 +1739,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     nav.navbar.bootsnav .navbar-nav {
         padding-left: 15px;
         padding-right: 15px;
+        text-align: right;
     }
     
     .attr-nav{
