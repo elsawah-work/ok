@@ -1312,7 +1312,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     nav.navbar.bootsnav .navbar-toggle {
         display: inline-block;
         float: right;
-        margin-right: -200px;
+        margin-left: -200px;
         margin-top: 10px;
     }
     
