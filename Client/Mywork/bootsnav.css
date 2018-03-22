@@ -1446,6 +1446,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         border-bottom: solid 1px #e0e0e0;
         color: #6f6f6f;
         text-align: right;
+        width: 100%;
     }
     
     nav.navbar.bootsnav .dropdown .megamenu-content .col-menu ul > li > a{
