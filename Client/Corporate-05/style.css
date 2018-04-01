@@ -8441,7 +8441,7 @@ footer .social-network .fa-flickr{
 .subfooter{
 	background:#343747;
 	color:#9496a0;
-	padding:30px 0;
+	padding:8px 0;
 	margin-top:20px;
 }
 
@@ -8456,9 +8456,10 @@ footer.soft-container .subfooter{
 }
 
 .subfooter ul{
-	float:right;
-	margin:10px 0 0 0;
-	padding:0;
+    float: right;
+    margin: 10px 30px 0 0;
+    padding: 0;
+    margin-bottom: 8px;
 }
 
 .subfooter ul li{
