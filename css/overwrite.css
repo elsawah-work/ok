@@ -811,7 +811,7 @@ Images
 	width:60px;
 	height:5px;
 	bottom:0;
-	left:0;
+    right: 0;
 }
 
 .thumbnail.content-center{
@@ -828,15 +828,15 @@ Images
 }
 
 .thumbnail.content-center .content:before{
-	border-bottom: 120px solid #fff;
-	border-left: 120px solid transparent;
-	position:absolute;	
-	content: "";
-	display:block;
-	width: 0;
-	height: 0;
-	right:0;
-	bottom:0;
+    border-bottom: 120px solid #fff;
+    border-right: 120px solid transparent;
+    position: absolute;
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    left: 0;
+    bottom: 0;
 }
 
 .gray-container .thumbnail.content-center .content:before{
