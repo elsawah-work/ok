@@ -4728,16 +4728,16 @@ Gallery
 }
 
 .coption-heading:before{
-	border-top: 60px solid;
-	border-right: 60px solid transparent;
-	position:absolute;	
-	content: "";
-	display:block;
-	width: 0;
-	height: 0;
-	right:-60px;
-	top:0;
-	z-index:2;
+    border-top: 60px solid;
+    border-left: 60px solid transparent;
+    position: absolute;
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    left: -60px;
+    top: 0;
+    z-index: 2;
 }
 
 .img-caption.static-caption{
