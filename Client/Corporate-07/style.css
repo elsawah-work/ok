@@ -818,6 +818,7 @@ Container
 
 .half-column-wrapp .half-column.column-content {
 	padding:110px 60px 90px 60px;
+    text-align: right;
 }
 
 .half-column-wrapp .half-column.hero-left,
