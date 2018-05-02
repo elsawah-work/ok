@@ -2483,6 +2483,7 @@ Icon with text
     position: absolute;
     top: 10px;
     margin-left: 17px;
+    right: 10px;
 }
 
 .abslute-icon.text-right .fa{
