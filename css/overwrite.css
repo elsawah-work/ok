@@ -588,7 +588,8 @@ ol li{
 }
 
 .list-icons li i{
-	margin-right:3px;
+    margin: 4px 0 0 8px;
+    float: right;
 }
 
 .link-list li a{
