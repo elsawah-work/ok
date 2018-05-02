@@ -2482,7 +2482,7 @@ Icon with text
 .abslute-icon .fa{
     position: absolute;
     top: 10px;
-    margin-right: -81px;
+    margin-left: 15px;
 }
 
 .abslute-icon.text-right .fa{
@@ -6567,6 +6567,7 @@ Call to action
 .cta-wrapp.cta-boxed h6{
 	display:inline;
 	margin-right:30px;
+    float: right;
 }
 
 .cta-wrapp .btn{
