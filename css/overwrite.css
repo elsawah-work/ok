@@ -1476,6 +1476,7 @@ Tabs
 .custom-tabs ul.nav > li{
     border: none;
     padding: 0;
+    float: right;
 }
 
 .custom-tabs ul.nav > li > a{
@@ -1603,7 +1604,7 @@ Tabs
 }
 
 .tabbable ul.nav > li {
-	float: left;
+	float: right;
 	position: relative;
 	margin-bottom: -1px;
 	margin-left: -3px;
