@@ -6567,6 +6567,7 @@ Call to action
 .cta-wrapp.cta-boxed h6{
 	display:inline;
 	margin-right:30px;
+    float: right;
 }
 
 .cta-wrapp .btn{
