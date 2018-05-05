@@ -9731,7 +9731,7 @@ a.openpanel {
 a.active.openpanel {
     border-left: none;
     _position: absolute;
-    left: 360px;
+    left: 300px;
 }
 
 a.openpanel:hover {
