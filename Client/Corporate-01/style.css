@@ -8350,7 +8350,7 @@ footer .form-subscribe{
 footer .form-subscribe .input-subscribe{
 	display:block;
 	width:100%;
-	background:#2e3141;
+	background:#1e1e21;
 	padding:7px 20px;
 	border:1px solid #636672;
 	border-radius:2px;
@@ -8457,7 +8457,7 @@ footer.soft-container .subfooter{
 
 .subfooter ul{
 	float:right;
-	margin:10px 30% 0 0;
+	margin:10px 30px 0 0;
 	padding:0;
 }
 
