@@ -1838,7 +1838,7 @@ Inverse skis
 =========================== */
 nav.navbar.navbar-inverse.bootsnav,
 nav.navbar.navbar-inverse.no-background.bootsnav:hover{
-	background-color: #222534;
+	background-color: #000000;
 }
 
 nav.navbar.navbar-inverse.no-background.bootsnav{
@@ -1862,7 +1862,7 @@ nav.navbar.navbar-inverse.screlled.bootsnav .attr-nav > ul > li > a{
 }
 
 nav.navbar.navbar-inverse.bootsnav li.dropdown ul.dropdown-menu{
-	background: #2c3040;
+	background: #000000;
 	border: solid 1px #3d4050;
 }
 
@@ -1919,7 +1919,7 @@ nav.navbar.navbar-inverse.bootsnav ul.cart-list > li.total{
 }
 
 nav.navbar.navbar-inverse.bootsnav .top-search{
-    background-color: #282b3b;
+    background-color: #2f2f38;
 	border-bottom:1px solid #363a4a;
     direction: rtl;
 }
