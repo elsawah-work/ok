@@ -94,7 +94,7 @@ header.default-bg {
 }
 
 header.inverse-bg {
-    background: #000000;
+    background: #222534;
     border-bottom: 1px solid #2f3544;
 }
 
@@ -136,7 +136,7 @@ header .btn-search-icon {
     display: block;
     float: left;
     width: 100%;
-    color: #000000;
+    color: #9e9e9e;
     background: #fff;
     border-bottom: 1px solid #ececec;
     border-top: 3px solid;
@@ -174,7 +174,7 @@ header .top-social-network li {
 }
 
 .top-social-network li a {
-    color: #000000;
+    color: #cbcbcb;
     font-size: 14px;
     line-height: 14px;
 }
@@ -225,7 +225,7 @@ header .top-social-network li a {
 }
 
 .right-link li a {
-    color: #000000;
+    color: #9e9e9e;
 }
 
 .right-link.sign-link li {
@@ -242,7 +242,7 @@ header .top-social-network li a {
 .right-link.sign-link li a.signup:active,
 .right-link.sign-link li a.signup:focus {
     text-decoration: none;
-    color: #000000;
+    color: #333;
     background: #f8f8f8;
     -webkit-box-shadow: 0px 0px 10px -6px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0px 0px 10px -6px rgba(0, 0, 0, 0.5);
@@ -272,11 +272,11 @@ header .top-social-network li a {
 
 nav.navbar.bootsnav .right-link {
     margin: 28px 0 0 0;
-    color: #000000;
+    color: #333;
 }
 
 nav.navbar.bootsnav .right-link li a {
-    color: #000000;
+    color: #333;
 }
 
 nav.navbar.bootsnav .right-link.sign-link li a.signup {
@@ -432,7 +432,7 @@ Container
 }
 
 .inverse-container {
-    background: #000000 url(https://rawgit.com/elsawah-work/ok/master/img/pattren02.png) repeat center top;
+    background: #222534 url(https://rawgit.com/elsawah-work/ok/master/img/pattren02.png) repeat center top;
 }
 
 .blue-container {
@@ -956,7 +956,7 @@ Container
 .vertical-link {
     position: fixed;
     display: block;
-    color: #000000333;
+    color: #333333;
     height: 60px;
     width: 280px;
     font-size: 14px;
@@ -1042,7 +1042,7 @@ Container
     content: '';
     width: 80px;
     height: 5px;
-    background: #000000;
+    background: #333;
     top: 0;
     left: 0;
 }
@@ -1067,7 +1067,7 @@ Container
 .content-boxed .contact-info {
     font-size: 18px;
     line-height: 32px;
-    color: #000000;
+    color: #333;
     font-weight: 700;
     padding-bottom: 60px;
 }
@@ -1236,7 +1236,7 @@ Page scroller
 
 .page-title-wrapp.page-title .single-network .icon-circle {
     background: #fff;
-    color: #000000;
+    color: #333;
     border-color: #fff;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -1374,7 +1374,7 @@ Revolution slider
 }
 
 .default-text {
-    color: #000000;
+    color: #333;
 }
 
 .inverse-text {
@@ -1646,7 +1646,7 @@ magazine
 }
 
 .news-caption .post-label {
-    background: #000000;
+    background: #222534;
     font-size: 12px;
     line-height: 12px;
     padding: 2px 15px;
@@ -1687,7 +1687,7 @@ magazine
 
 .news-head {
     display: inline-block;
-    background: #000000;
+    background: #222534;
     text-transform: uppercase;
     color: #fff;
     margin: 0 0 20px 0;
@@ -1712,7 +1712,7 @@ magazine
 .news-article-heading h4 a,
 .news-article-heading h5 a,
 .news-article-heading h6 a {
-    color: #000000;
+    color: #333;
 }
 
 .news-article-heading {
@@ -1743,7 +1743,7 @@ magazine
 .news-article-heading .author {
     font-weight: 700;
     margin: 0;
-    color: #000000;
+    color: #333;
 }
 
 .news-article-heading .meta-post .date {
@@ -1763,7 +1763,7 @@ magazine
     right: 20px;
     top: 20px;
     color: #fff;
-    background: #000000;
+    background: #222534;
     font-size: 12px;
     line-height: 12px;
     padding: 5px 10px;
@@ -1816,7 +1816,7 @@ magazine
 }
 
 .news-list li h6 a {
-    color: #000000;
+    color: #333;
     line-height: 24px;
 }
 
@@ -1897,7 +1897,7 @@ magazine
     position: relative;
     display: block;
     padding: 0 25px 0 25px;
-    color: #000000;
+    color: #333;
     font-size: 14px;
     line-height: 14px;
 }
@@ -1931,7 +1931,7 @@ magazine
 }
 
 .post-share li label {
-    color: #000000;
+    color: #333;
     text-transform: uppercase;
     font-size: 14px;
     line-height: 14px;
@@ -2000,7 +2000,7 @@ Fontawesome
 }
 
 .icon-default {
-    color: #000000;
+    color: #2a343f;
     ;
 }
 
@@ -2014,7 +2014,7 @@ Fontawesome
     position: relative;
     display: inline-block;
     text-indent: 2px;
-    background-color: #000000;
+    background-color: #2a343f;
     color: #fff;
     border-radius: 50%;
     width: 32px;
@@ -2029,7 +2029,7 @@ Fontawesome
 .icon-circle.icon-white,
 .icon-rectangle.icon-white {
     background-color: #fff;
-    color: #000000;
+    color: #2a343f;
 }
 
 .heading-icon {
@@ -2139,8 +2139,8 @@ h6.heading-icon .icon-rectangle {
 .icon-circle.icon-stroke,
 .icon-rectangle.icon-stroke {
     background: none;
-    border: 1px solid #000000;
-    color: #000000;
+    border: 1px solid #2a343f;
+    color: #2a343f;
 }
 
 .icon-circle.icon-stroke.icon-white,
@@ -2403,7 +2403,7 @@ Icon with text
 .abslute-icon {
     position: relative;
     display: block;
-    padding-left: 50px;
+
     margin-bottom: 30px;
 }
 
@@ -2424,7 +2424,7 @@ Icon with text
 }
 
 .abslute-icon.ai-3x {
-    padding-left: 75px;
+    padding-right: 75px;
 }
 
 .abslute-icon.text-right.ai-3x {
@@ -2433,7 +2433,7 @@ Icon with text
 }
 
 .abslute-icon.ai-4x {
-    padding-left: 85px;
+    padding-right: 85px;
 }
 
 .abslute-icon.text-right.ai-4x {
@@ -2493,8 +2493,7 @@ Icon with text
 .abslute-icon .fa {
     position: absolute;
     top: 10px;
-    margin-left: 17px;
-    right: 10px;
+    margin-right: -81px;
 }
 
 .abslute-icon.text-right .fa {
@@ -2540,7 +2539,7 @@ Icon with text
 .icon-center-top.transparent h4,
 .icon-center-top.transparent h5,
 .icon-center-top.transparent h6 {
-    color: #000000;
+    color: #333;
 }
 
 .text-icon-box {
@@ -2630,7 +2629,7 @@ Icon with text
 .icon-box-content {
     position: relative;
     z-index: 4;
-    text-align: right;
+    text-align: center;
 }
 
 .flip-wrapp {
@@ -2845,7 +2844,7 @@ Icon with text
 }
 
 .col-icon.bg1 {
-    background: #000000;
+    background: #3b3e4e;
 }
 
 .col-icon.bg2 {
@@ -3099,7 +3098,7 @@ Team
 .team-content.quote-content span.position:before {
     position: absolute;
     content: '';
-    background: #000000;
+    background: #333;
     width: 60px;
     height: 5px;
     bottom: 0;
@@ -3238,10 +3237,11 @@ Team
     padding: 115px 0 0 0;
     color: #fff;
     overflow: visible;
+    text-align: right;
 }
 
 .team-column-wrapp .team-content {
-    background: #000000 url(https://rawgit.com/elsawah-work/ok/master/img/pattren03.png) repeat-x center top;
+    background: #222534 url(https://rawgit.com/elsawah-work/ok/master/img/pattren03.png) repeat-x center top;
     position: relative;
     min-height: 300px;
     border: none;
@@ -3312,7 +3312,7 @@ Team
 }
 
 .team-content .icon-circle {
-    color: #000000;
+    color: #222534;
     background: #d9d9dd;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -3580,7 +3580,7 @@ Parallax
 }
 
 .parallax .overlay {
-    background-color: #000000;
+    background-color: #222534;
     position: absolute;
     top: 0;
     left: 0;
@@ -3614,7 +3614,7 @@ Parallax
 .parallax.white-bg h4,
 .parallax.white-bg h5,
 .parallax.white-bg h6 {
-    color: #000000;
+    color: #333;
 }
 
 .parallax .content-parallax {
@@ -3657,7 +3657,7 @@ Parallax
 .parallax-column h4,
 .parallax-column h5,
 .parallax-column h6 {
-    color: #000000;
+    color: #333;
 }
 
 /*
@@ -3755,7 +3755,7 @@ Process
 .puzzle-content {
     position: relative;
     display: block;
-    background-color: #000000;
+    background-color: #3b3e4e;
     padding: 50px 30px 30px 40px;
     border-radius: 8px;
 }
@@ -3804,7 +3804,7 @@ Process
 }
 
 .process-puzzle li .puzzle-content.default-bg:after {
-    background-color: #000000;
+    background-color: #3b3e4e;
 }
 
 .process-image-list {
@@ -3943,7 +3943,7 @@ Pricing
     line-height: 64px;
     width: 90px;
     height: 90px;
-    background: #000000;
+    background: #2f3434;
     color: #fff;
     border-radius: 50%;
     padding-top: 10px;
@@ -3989,7 +3989,7 @@ Pricing
 }
 
 .pricing-item.pricing-column .pricing-price {
-    background: #000000;
+    background: #2f3434;
     color: #fff;
     margin: 15px 0 0 0;
     padding: 40px 0 40px 10px;
@@ -4107,7 +4107,7 @@ Pricing
     padding: 15px 20px;
     margin: 0;
     border-bottom: solid 1px #e3e3e5;
-    color: #000000;
+    color: #333;
     font-size: 14px;
 }
 
@@ -4138,7 +4138,7 @@ Pricing
 .list-column-head {
     color: #fff;
     display: block;
-    background: #000000;
+    background: #2f3434;
     text-align: center;
     padding: 20px 30px;
     height: 110px;
@@ -4177,8 +4177,8 @@ Pricing
 }
 
 .pricing-list .list-column.title-column .list-column-content {
-    background: #000000;
-    border-top: 1px solid #000000;
+    background: #2f3434;
+    border-top: 1px solid #2f3434;
     text-align: left;
     margin-top: -1px;
     color: #fff;
@@ -4228,8 +4228,8 @@ Pricing
 }
 
 .pricing-list .list-column.title-column .list-column-content ul li.bg1 {
-    background: #000000;
-    border-bottom: 1px solid #000000;
+    background: #2f3434;
+    border-bottom: 1px solid #2f3434;
 }
 
 .list-column-content ul li.bg2 {
@@ -4259,7 +4259,7 @@ Pricing
     position: relative;
     display: inline-block;
     width: 50%;
-    background: #000000;
+    background: #222534;
     color: #fff;
     padding: 40px 30px;
     border-top: 5px solid;
@@ -4267,7 +4267,6 @@ Pricing
     -moz-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.25);
     box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.25);
     z-index: 2;
-    left: 50%;
     text-align: right;
 }
 
@@ -4335,7 +4334,7 @@ Pricing
 .pricing-2column-wrapp .pricing-2-column.absolute-2column h4,
 .pricing-2column-wrapp .pricing-2-column.absolute-2column h5,
 .pricing-2column-wrapp .pricing-2-column.absolute-2column h6 {
-    color: #000000;
+    color: #333;
 }
 
 .pricing-2column-wrapp .pricing-2-column.absolute-2column ul li {
@@ -4358,6 +4357,7 @@ Gallery
     margin: 0 0 40px 0;
     padding: 0;
     text-align: center;
+    direction: rtl;
 }
 
 .filter-items.pull-left {
@@ -4384,7 +4384,7 @@ Gallery
     list-style: none;
     margin: 0;
     padding: 0;
-    color: #000000;
+    color: #333;
     font-size: 16px;
 }
 
@@ -4458,7 +4458,7 @@ Gallery
     font-size: 14px;
     line-height: 14px;
     font-weight: 700;
-    color: #000000;
+    color: #333;
 }
 
 .filter-items.pull-left.text-only li {
@@ -4489,7 +4489,7 @@ Gallery
 }
 
 .filter-items.text-only li a.active {
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #333;
 }
 
 .img-wrapper {
@@ -4564,7 +4564,7 @@ Gallery
 .img-caption.dark-bg a:focus,
 .img-caption.dark-bg a:active {
     background: rgba(255, 255, 255, 0.95);
-    color: #000000;
+    color: #333;
     display: table;
     width: 100%;
     height: 100%;
@@ -4801,13 +4801,13 @@ Gallery
 
 .coption-heading:before {
     border-top: 60px solid;
-    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
     position: absolute;
     content: "";
     display: block;
     width: 0;
     height: 0;
-    left: -60px;
+    right: -60px;
     top: 0;
     z-index: 2;
 }
@@ -4898,7 +4898,7 @@ Gallery
 
 .lastest-article .title a,
 .article-content .title a {
-    color: #000000;
+    color: #333;
 }
 
 .date-label {
@@ -4951,7 +4951,7 @@ Gallery
     height: auto;
     left: 0;
     top: 0;
-    color: #000000;
+    color: #333;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -4980,7 +4980,7 @@ Gallery
     height: 30px;
     display: block;
     text-align: center;
-    color: #000000;
+    color: #333;
     font-weight: 700;
     text-indent: -2px;
     top: 0;
@@ -5002,7 +5002,7 @@ Gallery
 
 .meta-caption {
     display: block;
-    background: #000000;
+    background: #2a343f;
     position: absolute;
     border-right: 5px solid #fff;
     width: 80px;
@@ -5071,7 +5071,7 @@ Gallery
 .recent-post-half-content h4 a,
 .recent-post-half-content h5 a,
 .recent-post-half-content h6 a {
-    color: #000000;
+    color: #333;
 }
 
 .recent-post-half-content h1:before,
@@ -5081,7 +5081,7 @@ Gallery
     position: absolute;
     content: '';
     display: block;
-    background: #000000;
+    background: #333;
     width: 80px;
     height: 8px;
     bottom: 0;
@@ -5236,7 +5236,7 @@ article.post .post-share {
 
 article.post h4 a,
 article.post h5 a {
-    color: #000000;
+    color: #333;
 }
 
 article.post.row h4,
@@ -5562,7 +5562,7 @@ ul.cat li {
 }
 
 ul.cat li a {
-    color: #000000;
+    color: #333;
 }
 
 ul.photostream {
@@ -5574,7 +5574,7 @@ ul.photostream {
 
 ul.photostream li {
     float: left;
-    background: #000000;
+    background: #333;
     width: 60px;
     height: 60px;
     margin: 0 5px 5px 0;
@@ -5666,7 +5666,7 @@ Comments
     position: absolute;
     color: #fff;
     letter-spacing: 2px;
-    background: #000000;
+    background: #2a343f;
     padding: 3px 15px;
     top: 0;
     right: 0;
@@ -5691,7 +5691,7 @@ Comments
 }
 
 .product-wrapper .product-content h6 a {
-    color: #000000;
+    color: #333;
 }
 
 .rating {
@@ -5721,7 +5721,7 @@ Comments
 }
 
 .product-wrapper .product-content.unbox .price {
-    color: #000000;
+    color: #333;
 }
 
 .product-wrapper .product-content .price del {
@@ -5774,7 +5774,7 @@ Comments
     display: inline-block;
     width: 50%;
     padding: 15px 20px;
-    color: #000000;
+    color: #333;
     text-transform: uppercase;
     font-size: 12px;
     line-height: 12px;
@@ -5784,7 +5784,7 @@ Comments
 .ecommerce-promo {
     display: block;
     background: #fff;
-    color: #000000;
+    color: #333;
     font-size: 24px;
     line-height: 36px;
     padding: 40px;
@@ -5800,7 +5800,7 @@ Comments
     font-family: 'storytellaregular';
     font-size: 72px;
     line-height: 86px;
-    color: #000000;
+    color: #333;
     margin: 0;
 }
 
@@ -5815,13 +5815,13 @@ Comments
     content: '';
     width: 80px;
     height: 5px;
-    background: #000000;
+    background: #333;
     bottom: 0;
     left: 0;
 }
 
 .product-caption {
-    color: #000000;
+    color: #333;
 }
 
 .product-caption:before,
@@ -5841,7 +5841,7 @@ Comments
 .product-caption a.addcart {
     position: absolute;
     display: inlin-block;
-    background: #000000;
+    background: #2a343f;
     border: none;
     color: #fff;
     padding: 10px 15px 10px 51px;
@@ -6110,13 +6110,13 @@ table.parameter-product tr td strong {
 }
 
 .product-desc h5 a {
-    color: #000000;
+    color: #333;
 }
 
 .product-desc h5:before {
     position: absolute;
     content: '';
-    background: #000000;
+    background: #333;
     display: block;
     height: 3px;
     width: 40px;
@@ -6232,7 +6232,7 @@ Shopping cart
 }
 
 .item-title a {
-    color: #000000;
+    color: #333;
 }
 
 .item-title span {
@@ -6355,7 +6355,7 @@ Shopping cart
 }
 
 .counter-wrapp.counter-inverse {
-    background: #000000 url(https://rawgit.com/elsawah-work/ok/master/img/pattren02.png) repeat-x center top;
+    background: #222534 url(https://rawgit.com/elsawah-work/ok/master/img/pattren02.png) repeat-x center top;
     color: #8f919c;
 }
 
@@ -6365,14 +6365,14 @@ Shopping cart
     margin: 0;
     padding: 40px 30px;
     text-align: center;
-    background: #000000;
+    background: #3b3e4e;
     color: #fff;
     font-size: 18px;
     border-top: 5px solid;
 }
 
 .counter-wrapp .counter-column.bg1 {
-    background: #000000;
+    background: #3b3e4e;
 }
 
 .counter-wrapp .counter-column.bg2 {
@@ -6582,21 +6582,21 @@ Call to action
 }
 
 .inverse-bg {
-    background: #000000 url(https://rawgit.com/elsawah-work/ok/master/img/pattren02.png) repeat-x center top;
-    border-top: 1px solid #000000;
-    border-bottom: 1px solid #000000;
+    background: #222534 url(https://rawgit.com/elsawah-work/ok/master/img/pattren02.png) repeat-x center top;
+    border-top: 1px solid #222534;
+    border-bottom: 1px solid #222534;
     color: #fff;
 }
 
 .cta-wrapp.centered.inverse-bg {
-    background: #000000 url(https://rawgit.com/elsawah-work/ok/master/img/pattren02.png) repeat-x center top;
-    border-top: 1px solid #000000;
-    border-bottom: 3px double #000000;
+    background: #222534 url(https://rawgit.com/elsawah-work/ok/master/img/pattren02.png) repeat-x center top;
+    border-top: 1px solid #222534;
+    border-bottom: 3px double #222534;
 }
 
 .cta-wrapp.centered.inverse-bg:before,
 .cta-wrapp.centered.inverse-bg:after {
-    border-top: 40px solid #000000;
+    border-top: 40px solid #222534;
 }
 
 .primary-bg {
@@ -6726,7 +6726,7 @@ Progress Bar
     font-weight: 700;
     position: absolute;
     top: -25px;
-    color: #000000;
+    color: #333;
 }
 
 .progress.type1 .value-progress {
@@ -6734,11 +6734,11 @@ Progress Bar
 }
 
 .progress.type1 .data-progress {
-    left: 0;
+    right: 0;
 }
 
 .progress.type1 .value-progress {
-    right: 0;
+    left: 0;
 }
 
 .progress.type2 {
@@ -6754,24 +6754,24 @@ Progress Bar
 }
 
 .progress.type2 .data-progress {
-    color: #000000;
-    left: 0;
+    color: #333;
+    right: 0;
 }
 
 .progress.type2 .value-progress {
-    background-color: #000000;
+    background-color: #333;
     padding: 1px 7px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
     -o-border-radius: 2px;
     border-radius: 2px;
-    margin-left: -40px;
-    left: 100%;
+    margin-right: -40px;
+    right: 100%;
     top: -26px;
 }
 
 .wrap-progress3 {
-    padding-right: 45px;
+
     overflow: hidden;
 }
 
@@ -6802,7 +6802,7 @@ Progress Bar
 }
 
 .progress.type3 .data-progress {
-    color: #000000;
+    color: #333;
     right: 0;
     top: -25px;
 }
@@ -6865,7 +6865,7 @@ Progress Bar
     line-height: 80px;
     font-size: 20px;
     font-weight: 700;
-    color: #000000;
+    color: #222534;
     background: rgba(255, 255, 255, 0.7);
     border-radius: 50%;
     width: 80px;
@@ -6945,7 +6945,7 @@ Restaurant
     position: relative;
     float: left;
     width: 100%;
-    background: #000000;
+    background: #222534;
     padding: 20px;
 }
 
@@ -6955,7 +6955,7 @@ Restaurant
     position: absolute;
     width: 100%;
     height: 20px;
-    background: #000000;
+    background: #222534;
     display: block;
     top: -20px;
     left: 0;
@@ -7273,7 +7273,7 @@ Video
 
 .video-wrapper .jp-audio {
     display: none;
-    background: #000000;
+    background: #333;
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
     bottom: 0;
@@ -7509,7 +7509,7 @@ Custom form
 .custom-form.white-form h4,
 .custom-form.white-form h5,
 .custom-form.white-form h6 {
-    color: #000000;
+    color: #333;
 }
 
 .custom-form .form-control,
@@ -7566,7 +7566,7 @@ Custom form
 .form-wrapp h4,
 .form-wrapp h5,
 .form-wrapp h6 {
-    color: #000000;
+    color: #333;
 }
 
 .form-wrapp label {
@@ -7613,7 +7613,7 @@ Custom form
     position: relative;
     display: block;
     width: 100%;
-    background: #000000;
+    background: #2a343f;
     border: none;
     color: #fff;
     padding: 80px 20px;
@@ -7723,7 +7723,7 @@ Scroller
     text-align: center;
     font-size: 14px;
     line-height: 32px;
-    color: #000000;
+    color: #333;
 }
 
 .speciality-page.notfound h1 {
@@ -7739,7 +7739,7 @@ Scroller
     text-align: center;
     font-size: 18px;
     line-height: 32px;
-    color: #000000;
+    color: #333;
     padding-top: 120px;
 }
 
@@ -7768,7 +7768,7 @@ Scroller
 
 .main-example {
     display: block;
-    color: #000000;
+    color: #333;
 }
 
 .main-example .countdown-container {
@@ -8044,7 +8044,7 @@ Login and register
 .logreg-contain .custom-tabs .nav-tabs li.active a {
     background: none !important;
     border-color: transparent !important;
-    color: #000000;
+    color: #333;
 }
 
 .logreg-contain .custom-tabs .tab-content {
@@ -8248,7 +8248,7 @@ div.loading-invisible {
     top: 50%;
     margin-top: 50px;
     margin-left: -79px;
-    color: #000000;
+    color: #333;
 }
 
 /*
@@ -8257,7 +8257,7 @@ Footer
 
 footer {
     display: bolck;
-    background: #000000;
+    background: #222534;
     padding: 50px 0 0 0;
     color: #b5b6bc;
 }
@@ -8305,7 +8305,7 @@ footer.sm-footer h3,
 footer.sm-footer h4,
 footer.sm-footer h5,
 footer.sm-footer h6 {
-    color: #000000;
+    color: #333;
 }
 
 footer .widget {
@@ -8313,7 +8313,6 @@ footer .widget {
     margin: 0 0 30px 0;
     clear: both;
     text-align: right;
-    color: white;
 }
 
 footer.sm-footer .widget .network .icon-circle,
@@ -8466,7 +8465,7 @@ footer .form-subscribe {
 footer .form-subscribe .input-subscribe {
     display: block;
     width: 100%;
-    background: #1e1e21;
+    background: #2e3141;
     padding: 7px 20px;
     border: 1px solid #636672;
     border-radius: 2px;
@@ -8555,7 +8554,7 @@ footer .social-network .fa-flickr {
 }
 
 .subfooter {
-    background: #1e1e21;
+    background: #343747;
     color: #9496a0;
     padding: 8px 0;
     margin-top: 20px;
@@ -8575,6 +8574,7 @@ footer.soft-container .subfooter {
     float: right;
     margin: 10px 30px 0 0;
     padding: 0;
+    margin-bottom: 8px;
 }
 
 .subfooter ul li {
@@ -9013,11 +9013,11 @@ Tablet (portrait and landscape)
         margin-top: 20px;
     }
     .subfooter ul {
-        float: right;
-        margin: 10px 17px 0 15px;
+        float: left;
+        margin: 10px 0 0 15px;
     }
     .subfooter ul li {
-        margin: 0 0 0 30px;
+        margin: 0 30px 0 0;
     }
     .counter-inverse .counter-content {
         width: 50%;
@@ -9715,7 +9715,7 @@ a.openpanel {
     height: 255px;
     border-left: none;
     border-radius: 0 2px 2px 0;
-    color: #000000;
+    color: #333;
     display: block;
     left: 0;
     text-align: center;
@@ -9736,7 +9736,7 @@ a.active.openpanel {
 
 a.openpanel:hover {
     outline: none;
-    color: #000000;
+    color: #333;
 }
 
 .demo-col {
@@ -9998,5 +9998,10 @@ a.openpanel:hover {
 }
 
 #demo .title a {
-    color: #000000;
+    color: #333;
+}
+
+.list-icons li i {
+    float: right;
+    margin: 6px 0 0 3px;
 }
