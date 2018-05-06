@@ -613,7 +613,6 @@ website:    http://www.themepunch.com
 }
 
 .erinyen .tp-arr-titleholder {
-    letter-spacing: 3px;
     position: relative;
     -webkit-transition: -webkit-transform 0.3s;
     transition: transform 0.3s;
@@ -773,7 +772,6 @@ website:    http://www.themepunch.com
 
 .erinyen .tp-thumb-title {
     font-family: "Raleway";
-    letter-spacing: 1px;
     font-size: 12px;
     color: #fff;
     display: block;
@@ -2743,7 +2741,6 @@ website:    http://www.themepunch.com
 
 .zeus .tp-thumb-title {
     font-family: "Raleway";
-    letter-spacing: 1px;
     font-size: 12px;
     color: #fff;
     display: block;
@@ -2856,7 +2853,6 @@ website:    http://www.themepunch.com
 
 .post-tabs .tp-thumb-title {
     font-family: "raleway";
-    letter-spacing: 1px;
     font-size: 12px;
     color: #fff;
     display: block;

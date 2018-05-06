@@ -987,7 +987,6 @@ img.tp-slider-alternative-image {
     line-height: 45px !important;
     font-family: arial, sans-serif;
     font-weight: bold;
-    letter-spacing: -1px;
     text-decoration: none;
 }
 
@@ -1095,7 +1094,6 @@ img.tp-slider-alternative-image {
 .rev-btn.rev-uppercase,
 .rev-btn.rev-uppercase:visited {
     text-transform: uppercase;
-    letter-spacing: 1px;
     font-size: 15px;
     font-weight: 900;
 }
@@ -1363,7 +1361,6 @@ img.tp-slider-alternative-image {
     color: #7f8c8d;
     color: #ffffff;
     font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    letter-spacing: 2px;
 }
 
 .rev-scroll-btn > *:hover,
@@ -2123,43 +2120,33 @@ body.rtl .tp-kbimg {
 }
 
 .letter-space1 {
-    letter-spacing: 1px;
 }
 
 .letter-space2 {
-    letter-spacing: 2px;
 }
 
 .letter-space3 {
-    letter-spacing: 3px;
 }
 
 .letter-space4 {
-    letter-spacing: 4px;
 }
 
 .letter-space5 {
-    letter-spacing: 5px;
 }
 
 .letter-space6 {
-    letter-spacing: 6px;
 }
 
 .letter-space7 {
-    letter-spacing: 7px;
 }
 
 .letter-space8 {
-    letter-spacing: 8px;
 }
 
 .letter-space9 {
-    letter-spacing: 9px;
 }
 
 .letter-space10 {
-    letter-spacing: 10px;
 }
 
 .weight-normal {

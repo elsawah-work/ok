@@ -251,7 +251,6 @@ nav.bootsnav.navbar-full .navbar-collapse ul.nav > li{
 nav.bootsnav.navbar-full .navbar-collapse ul.nav > li > a{
     margin: auto;
     font-weight: 400!important;
-    letter-spacing: 8px;
     font-size: 32px;
 	line-height:32px;
     padding:15px;
@@ -530,7 +529,6 @@ body.on-side{
 
 .side .widget ul.link li a{
     color: #9f9f9f;
-    letter-spacing: 1px;
 }
 
 .side .widget ul.link li a:focus,
@@ -1234,7 +1232,6 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         padding: 7px 0;
         text-transform: none;
         font-weight: 400;
-        letter-spacing: 0px;
         margin-bottom: 0;
         cursor: pointer;
         color: #6f6f6f;
@@ -1426,7 +1423,6 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         line-height: 24px;
         text-transform: none;
         font-weight: 400;
-        letter-spacing: 0px;
         margin-bottom: 0;
         cursor: pointer;
         border-bottom: solid 1px #e0e0e0;

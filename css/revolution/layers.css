@@ -78,7 +78,6 @@
     font-family: Arial;
     font-size: 60px;
     font-weight: 700;
-    letter-spacing: -2px;
     line-height: 60px;
     margin: 0;
     position: absolute;
@@ -174,7 +173,6 @@
     font-family: "Open Sans", sans-serif;
     font-size: 30px;
     font-weight: 800;
-    letter-spacing: 0;
     line-height: 36px;
     margin: 0;
     padding: 3px 10px;
@@ -191,7 +189,6 @@
     font-family: "Open Sans", sans-serif;
     font-size: 30px;
     font-weight: 300;
-    letter-spacing: 0;
     line-height: 36px;
     margin: 0;
     padding: 1px 10px 3px;
@@ -330,7 +327,6 @@
     font-size: 36px;
     font-weight: 700;
     height: auto;
-    letter-spacing: -1.5px;
     line-height: 36px;
     margin: 0;
     padding: 1px 4px 0;
@@ -715,7 +711,6 @@
     font-family: "Source Sans Pro";
     font-size: 60px;
     font-weight: 700;
-    letter-spacing: 1px;
     line-height: 60px;
     text-decoration: none;
     text-shadow: none;
@@ -731,7 +726,6 @@
     font-family: "Source Sans Pro";
     font-size: 17px;
     font-weight: 400;
-    letter-spacing: 2px;
     line-height: 24px;
     text-decoration: none;
     text-shadow: none;
@@ -766,7 +760,6 @@
     font-family: "Source Sans Pro";
     font-size: 22px;
     font-weight: 400;
-    letter-spacing: 0;
     line-height: 28px;
     text-decoration: none;
     text-shadow: none;
@@ -782,7 +775,6 @@
     font-family: "Source Sans Pro";
     font-size: 60px;
     font-weight: 700;
-    letter-spacing: 1px;
     line-height: 60px;
     text-decoration: none;
     text-shadow: none;
@@ -798,7 +790,6 @@
     font-family: "Source Sans Pro";
     font-size: 22px;
     font-weight: 400;
-    letter-spacing: 0;
     line-height: 28px;
     text-decoration: none;
     text-shadow: none;
@@ -880,7 +871,6 @@
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
-    letter-spacing: 2px;
     line-height: 30px;
     padding: 0;
     text-decoration: none;
@@ -898,7 +888,6 @@
     font-size: 17px;
     font-style: normal;
     font-weight: 400;
-    letter-spacing: 2px;
     line-height: 17px;
     padding: 0;
     text-decoration: none;
@@ -916,7 +905,6 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 300;
-    letter-spacing: 3px;
     line-height: 30px;
     padding: 0;
     text-decoration: none;
@@ -934,7 +922,6 @@
     font-size: 30px;
     font-style: normal;
     font-weight: 300;
-    letter-spacing: 3px;
     line-height: 30px;
     padding: 0;
     text-decoration: none;
@@ -952,7 +939,6 @@
     font-size: 17px;
     font-style: normal;
     font-weight: 400;
-    letter-spacing: 2px;
     line-height: 17px;
     padding: 10px 30px;
     text-align: left;
@@ -1008,7 +994,6 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    letter-spacing: 3px;
     line-height: 20px;
     padding: 0;
     text-decoration: none;
@@ -1062,7 +1047,6 @@
     font-size: 30px;
     font-style: normal;
     font-weight: 100;
-    letter-spacing: 5px;
     line-height: 30px;
     padding: 0;
     text-decoration: none;
@@ -1098,7 +1082,6 @@
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
-    letter-spacing: 2px;
     line-height: 20px;
     padding: 0;
     text-decoration: none;
@@ -1116,7 +1099,6 @@
     font-size: 60px;
     font-style: normal;
     font-weight: 900;
-    letter-spacing: 2px;
     line-height: 60px;
     padding: 0;
     text-decoration: none;
@@ -1134,7 +1116,6 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    letter-spacing: 2px;
     line-height: 40px;
     padding: 0;
     text-decoration: none;
@@ -1152,7 +1133,6 @@
     font-size: 130px;
     font-style: normal;
     font-weight: 100;
-    letter-spacing: 13px;
     line-height: 130px;
     padding: 0;
     text-decoration: none;
@@ -1187,7 +1167,6 @@
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
-    letter-spacing: 4px;
     line-height: 32px;
     padding: 0;
     text-decoration: none;
@@ -1267,7 +1246,6 @@
     font-size: 80px;
     font-style: normal;
     font-weight: 100;
-    letter-spacing: 5px;
     line-height: 70px;
     padding: 0;
     text-decoration: none;
@@ -1285,7 +1263,6 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 300;
-    letter-spacing: 3px;
     line-height: 30px;
     padding: 0;
     text-decoration: none;
@@ -1330,7 +1307,6 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 300;
-    letter-spacing: 2px;
     line-height: 20px;
     padding: 3px 5px 3px 8px;
     text-decoration: none;
@@ -1359,7 +1335,6 @@
     font-size: 17px;
     font-style: normal;
     font-weight: 300;
-    letter-spacing: 2px;
     line-height: 30px;
     padding: 0;
     text-decoration: none;
@@ -1377,7 +1352,6 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 300;
-    letter-spacing: 3px;
     line-height: 30px;
     padding: 0;
     text-decoration: none;
@@ -1474,7 +1448,6 @@
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
-    letter-spacing: 2px;
     line-height: 20px;
     padding: 3px 5px 3px 8px;
     text-align: left;
@@ -1605,7 +1578,6 @@
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
-    letter-spacing: 4px;
     line-height: 20px;
     padding: 0;
     text-align: left;
@@ -1624,7 +1596,6 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    letter-spacing: 3px;
     line-height: 14px;
     padding: 10px 30px;
     text-align: left;
@@ -1654,7 +1625,6 @@
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
-    letter-spacing: 3px;
     line-height: 30px;
     padding: 0;
     text-align: left;
@@ -1673,7 +1643,6 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    letter-spacing: 3px;
     line-height: 14px;
     padding: 27px 30px;
     text-align: left;
@@ -1721,7 +1690,6 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 300;
-    letter-spacing: 2px;
     line-height: 20px;
     padding: 3px 5px 3px 8px;
     text-align: left;
@@ -1751,7 +1719,6 @@
     font-size: 13px;
     font-style: normal;
     font-weight: 700;
-    letter-spacing: 2px;
     line-height: 17px;
     padding: 12px 35px;
     text-align: left;
@@ -1835,7 +1802,6 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    letter-spacing: 3px;
     line-height: 14px;
     padding: 10px 30px;
     text-align: left;
@@ -1883,7 +1849,6 @@
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
-    letter-spacing: 2px;
     line-height: 12px;
     padding: 5px;
     text-align: left;
@@ -1902,7 +1867,6 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    letter-spacing: 3px;
     line-height: 14px;
     padding: 10px 30px;
     text-align: left;
@@ -1932,7 +1896,6 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    letter-spacing: 3px;
     line-height: 14px;
     padding: 27px 30px;
     text-align: left;
@@ -1962,7 +1925,6 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
-    letter-spacing: 1px;
     line-height: 48px;
     padding: 0 40px;
     text-align: left;
@@ -1992,7 +1954,6 @@
     font-size: 17px;
     font-style: normal;
     font-weight: 500;
-    letter-spacing: 3px;
     line-height: 17px;
     padding: 12px 35px;
     text-align: left;
@@ -2022,7 +1983,6 @@
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
-    letter-spacing: 1px;
     line-height: 15px;
     padding: 13px 35px;
     text-align: left;
@@ -2081,7 +2041,6 @@
     font-size: 17px;
     font-style: normal;
     font-weight: 600;
-    letter-spacing: 2px;
     line-height: 17px;
     padding: 12px 35px;
     text-align: left;
@@ -2111,7 +2070,6 @@
     font-size: 17px;
     font-style: normal;
     font-weight: 600;
-    letter-spacing: 2px;
     line-height: 17px;
     padding: 12px 35px;
     text-align: left;
@@ -2141,7 +2099,6 @@
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
-    letter-spacing: 1px;
     line-height: 15px;
     padding: 13px 35px;
     text-align: left;
@@ -2551,7 +2508,6 @@
     border-width: 0px;
     border-radius: 0 0 0 0px;
     text-align: left;
-    letter-spacing: 1px
 }
 
 .tp-caption.BigBold-Button,
@@ -2570,7 +2526,6 @@
     border-width: 1px;
     border-radius: 0px 0px 0px 0px;
     text-align: left;
-    letter-spacing: 1px
 }
 
 .tp-caption.BigBold-Button:hover,
@@ -2618,7 +2573,6 @@
     border-width: 1px;
     border-radius: 0px 0px 0px 0px;
     text-align: left;
-    letter-spacing: 1px
 }
 
 .tp-caption.FoodCarousel-Button:hover,
@@ -2648,7 +2602,6 @@
     border-width: 1px;
     border-radius: 30px 30px 30px 30px;
     text-align: left;
-    letter-spacing: 1px
 }
 
 .tp-caption.FoodCarousel-CloseButton:hover,
@@ -2677,7 +2630,6 @@
     border-style: none;
     border-width: 0px;
     border-radius: 0 0 0 0px;
-    letter-spacing: 2px;
     text-align: left
 }
 
@@ -2751,7 +2703,6 @@
     border-width: 2px;
     border-radius: 5px 5px 5px 5px;
     text-align: left;
-    letter-spacing: 1px
 }
 
 .tp-caption.Travel-CallToAction:hover,
@@ -2800,7 +2751,6 @@
     border-width: 2px;
     border-radius: 0px 0px 0px 0px;
     text-align: left;
-    letter-spacing: 3px
 }
 
 .tp-caption.RotatingWords-Button:hover,
@@ -2971,7 +2921,6 @@
     border-width: 1px;
     border-radius: 0px 0px 0px 0px;
     text-align: left;
-    letter-spacing: 1px
 }
 
 .tp-caption.ContentZoom-Button:hover,
@@ -3001,7 +2950,6 @@
     border-width: 1px;
     border-radius: 30px 30px 30px 30px;
     text-align: left;
-    letter-spacing: 1px
 }
 
 .tp-caption.ContentZoom-ButtonClose:hover,
@@ -3066,7 +3014,6 @@
     border-style: solid;
     border-width: 1px;
     border-radius: 0px 0px 0px 0px;
-    letter-spacing: 2px;
     text-align: left
 }
 
@@ -3107,7 +3054,6 @@
 .revtp-form input[type="submit"] {
     font-family: "Arial", sans-serif;
     line-height: 46px;
-    letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 15px;
     font-weight: 700;
@@ -3146,7 +3092,6 @@
     border-style: none;
     border-width: 0px;
     border-radius: 0px 0px 0px 0px;
-    letter-spacing: 5px
 }
 
 .tp-caption.Concept-SubTitle,
@@ -3201,7 +3146,6 @@
     border-style: solid;
     border-width: 0px;
     border-radius: 50px 50px 50px 50px;
-    letter-spacing: 1px;
     text-align: left
 }
 
@@ -3232,7 +3176,6 @@
     border-style: solid;
     border-width: 0px;
     border-radius: 50px 50px 50px 50px;
-    letter-spacing: 1px;
     text-align: left
 }
 
@@ -3281,7 +3224,6 @@
     border-style: none;
     border-width: 0px;
     border-radius: 0px 0px 0px 0px;
-    letter-spacing: 5px
 }
 
 .tp-caption.Concept-MoreBtn-Dark,
@@ -3300,7 +3242,6 @@
     border-style: solid;
     border-width: 0px;
     border-radius: 50px 50px 50px 50px;
-    letter-spacing: 1px;
     text-align: left
 }
 
@@ -3349,7 +3290,6 @@
     border-style: none;
     border-width: 2px;
     border-radius: 0px 0px 0px 0px;
-    letter-spacing: 2px
 }
 
 .tp-caption.Concept-Content a,
@@ -3418,7 +3358,6 @@
     border-style: none;
     border-width: 0px;
     border-radius: 0px 0px 0px 0px;
-    letter-spacing: 2px
 }
 
 .tp-caption.Creative-Button,
@@ -3437,7 +3376,6 @@
     border-style: solid;
     border-width: 1px;
     border-radius: 0px 0px 0px 0px;
-    letter-spacing: 2px
 }
 
 .tp-caption.Creative-Button:hover,
@@ -3586,7 +3524,6 @@
     border-width: 0px;
     border-radius: 0 0 0 0px;
     text-align: center;
-    letter-spacing: 2px;
     type: text
 }
 
@@ -3704,7 +3641,6 @@
     border-width: 0px;
     border-radius: 0 0 0 0px;
     text-align: center;
-    letter-spacing: 2px;
     type: text
 }
 
@@ -3803,7 +3739,6 @@
     border-style: solid;
     border-width: 0px;
     border-radius: 0px 0px 0px 0px;
-    letter-spacing: 3px;
     text-align: left
 }
 
@@ -3834,7 +3769,6 @@
     border-width: 0px;
     border-radius: 0 0 0 0px;
     text-align: left;
-    letter-spacing: 10px
 }
 
 .tp-caption.Agency-SubTitle,
@@ -3901,7 +3835,6 @@
     border-width: 0px;
     border-radius: 0 0 0 0px;
     text-align: left;
-    letter-spacing: 5px
 }
 
 .tp-caption.Agency-Social,
@@ -3980,7 +3913,6 @@
     border-width: 0px;
     border-radius: 0 0 0 0px;
     text-align: left;
-    letter-spacing: 10px
 }
 
 .tp-caption.Dining-SubTitle,
@@ -4017,7 +3949,6 @@
     border-width: 1px;
     border-radius: 0px 0px 0px 0px;
     text-align: left;
-    letter-spacing: 2px
 }
 
 .tp-caption.Dining-BtnLight:hover,
@@ -4221,7 +4152,6 @@ tp-caption.Team-Thumb,
     border-width: 0px;
     border-radius: 0 0 0 0px;
     text-align: left;
-    letter-spacing: 10px
 }
 
 .tp-caption.VideoPlayer-SubTitle,
@@ -4353,7 +4283,6 @@ tp-caption.Team-Thumb,
     border-width: 0px;
     border-radius: 0 0 0 0px;
     text-align: left;
-    letter-spacing: 5px
 }
 
 .tp-caption.SleekLanding-ButtonBG,
@@ -4395,7 +4324,6 @@ tp-caption.Team-Thumb,
     border-width: 0px;
     border-radius: 0 0 0 0px;
     text-align: left;
-    letter-spacing: 2px
 }
 
 .tp-caption.SleekLanding-BottomText,
@@ -4471,7 +4399,6 @@ tp-caption.Team-Thumb,
     border-style: none;
     border-width: 0px;
     border-radius: 0 0 0 0px;
-    letter-spacing: 3px;
     text-align: left
 }
 
@@ -4566,7 +4493,6 @@ tp-caption.Team-Thumb,
     border-width: 0px;
     border-radius: 0 0 0 0px;
     text-align: left;
-    letter-spacing: 10px
 }
 
 .tp-caption.LandingPage-SubTitle,
@@ -4603,7 +4529,6 @@ tp-caption.Team-Thumb,
     border-width: 0px;
     border-radius: 0px 0px 0px 0px;
     text-align: left;
-    letter-spacing: 3px
 }
 
 .tp-caption.LandingPage-Button:hover,
@@ -4680,7 +4605,6 @@ tp-caption.Team-Thumb,
     border-width: 0px;
     border-radius: 0 0 0 0px;
     text-align: center;
-    letter-spacing: 1px
 }
 
 .tp-caption.ComingSoon-Highlight,
@@ -4790,7 +4714,6 @@ tp-caption.Team-Thumb,
 #mc_embed_signup input#mc-embedded-subscribe:focus {
     font-family: "Lato", sans-serif;
     line-height: 46px;
-    letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 900;
@@ -4830,7 +4753,6 @@ tp-caption.Team-Thumb,
     border-width: 0px;
     border-radius: 0 0 0 0px;
     text-align: center;
-    letter-spacing: 6px
 }
 
 .tp-caption.Agency-SmallContent,
@@ -4869,7 +4791,6 @@ tp-caption.Team-Thumb,
     border-width: 0px;
     border-radius: 0 0 0 0px;
     text-align: center;
-    letter-spacing: 2px;
     border-bottom: 1px solid #f87c09 !important
 }
 
@@ -4933,7 +4854,6 @@ tp-caption.Team-Thumb,
     border-width: 0px;
     border-radius: 0 0 0 0px;
     text-align: center;
-    letter-spacing: 2px;
     border-bottom: 1px solid #6db19b !important
 }
 
@@ -4966,7 +4886,6 @@ tp-caption.Team-Thumb,
     border-width: 0px;
     border-radius: 0 0 0 0px;
     text-align: center;
-    letter-spacing: 2px;
     border-bottom: 1px solid #999 !important
 }
 
@@ -4999,7 +4918,6 @@ tp-caption.Team-Thumb,
     border-width: 0px;
     border-radius: 0 0 0 0px;
     text-align: center;
-    letter-spacing: 1px
 }
 
 .tp-caption.Agency-ArrowTooltip,

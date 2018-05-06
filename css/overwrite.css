@@ -39,7 +39,6 @@ body {
 }
 
 a{
-    letter-spacing: 0.5px;
 }
 
 a,
@@ -62,7 +61,6 @@ h1, h2, h3, h4, h5, h6{
 	font-weight:700;
 	color:#333;
 	margin:0 0 15px 0;
-    letter-spacing: 1px;
 }
 
 h1 span, h2 span, h3 span, h4 span, h5 span, h6 span{
@@ -447,7 +445,6 @@ h6{
 	top:0;
 	left:0;
 	color:#dedee6;
-	letter-spacing:5px;
 	font-size:72px;
 	line-height:72px;
 	font-weight:700;
@@ -2747,7 +2744,6 @@ footer .form-control::-webkit-input-placeholder {
 	display: block;
 	font-size:13px;
 	color: #b6b6b6;
-	letter-spacing:0;
 }
 
 .jcf-select .jcf-select-opener {
