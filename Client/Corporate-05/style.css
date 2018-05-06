@@ -919,7 +919,7 @@ Container
     line-height: 28px;
     display: block;
     margin-bottom: 40px;
-    letter-spacing: 2px;
+
 }
 
 .single-wrapper {
@@ -961,7 +961,6 @@ Container
     width: 280px;
     font-size: 14px;
     line-height: 28px;
-    letter-spacing: 2px;
     text-transform: uppercase;
     text-align: center;
     padding: 15px 20px;
@@ -1081,7 +1080,6 @@ Container
     color: #131415;
     font-size: 140px;
     line-height: 140px;
-    letter-spacing: -2px;
     margin-bottom: 60px;
     font-weight: 700;
 }
@@ -1188,7 +1186,6 @@ Page scroller
     font-size: 14px;
     line-height: 14px;
     text-transform: uppercase;
-    letter-spacing: 5px;
 }
 
 .mouse-scroll {
@@ -1197,7 +1194,6 @@ Page scroller
     width: 140px;
     height: auto;
     color: #fff;
-    letter-spacing: 5px;
     left: 50%;
     bottom: 60px;
     margin-left: -70px;
@@ -1210,7 +1206,6 @@ Page scroller
     color: rgba(255, 255, 255, 0.95);
     font-size: 72px;
     line-height: 86px;
-    letter-spacing: 0;
     margin-top: 40px;
 }
 
@@ -1395,7 +1390,6 @@ Revolution slider
 
 .border-spacing {
     border: 1px solid #fff;
-    letter-spacing: 23px;
     word-break: break-all;
 }
 
@@ -1435,7 +1429,6 @@ h4.tp-caption span {
 
 .Photography-Menu-item {
     font-size: 16px;
-    letter-spacing: 2px;
 }
 
 .Photography-title,
@@ -2629,7 +2622,7 @@ Icon with text
 .icon-box-content {
     position: relative;
     z-index: 4;
-    text-align: right;
+    text-align: center;
 }
 
 .flip-wrapp {
@@ -2649,7 +2642,6 @@ Icon with text
     background-color: #f6f6f6;
     text-transform: uppercase;
     color: #9c9ca0;
-    letter-spacing: 2px;
     text-align: center;
 }
 
@@ -2681,7 +2673,6 @@ Icon with text
 .flip-wrapp .front h5,
 .flip-wrapp .front h6 {
     margin-bottom: 5px;
-    letter-spacing: 1px;
 }
 
 .flip-wrapp .back {
@@ -3009,7 +3000,6 @@ Icon with text
     font-weight: 700;
     font-size: 92px;
     line-height: 64px;
-    letter-spacing: -10px;
     color: rgba(188, 192, 193, 0.1);
     top: 0;
     left: 0;
@@ -3090,7 +3080,6 @@ Team
     display: block;
     text-transform: uppercase;
     color: #b3b8bf;
-    letter-spacing: 5px;
     padding-bottom: 30px;
     margin-bottom: 30px;
 }
@@ -4126,7 +4115,7 @@ Pricing
 }
 
 .pricing-list .list-column {
-    float: right;
+    float: left;
     width: 20%;
     padding: 0 0.5px;
 }
@@ -4853,7 +4842,6 @@ Gallery
     list-style: none;
     margin: 0 0 20px 0;
     padding: 0;
-    letter-spacing: 2px;
 }
 
 .detail-item li h6 {
@@ -5665,7 +5653,6 @@ Comments
 .img-wrapper .product-label {
     position: absolute;
     color: #fff;
-    letter-spacing: 2px;
     background: #000000;
     padding: 3px 15px;
     top: 0;
@@ -6021,7 +6008,6 @@ table.parameter-product tr td strong {
     display: block;
     width: 100%;
     padding: 25px 30px;
-    letter-spacing: 3px;
     background-color: #fff;
     background: rgba(255, 255, 255, 0.7);
 }
@@ -6056,7 +6042,6 @@ table.parameter-product tr td strong {
 .category-caption {
     background: #f6f6f6;
     padding: 20px 30px 30px 30px;
-    letter-spacing: 2px;
 }
 
 .category-caption h4 {
@@ -6376,19 +6361,19 @@ Shopping cart
 }
 
 .counter-wrapp .counter-column.bg2 {
-    background: #353747;
+    background: #1e1e21;
 }
 
 .counter-wrapp .counter-column.bg3 {
-    background: #2f3241;
+    background: #000000;
 }
 
 .counter-wrapp .counter-column.bg4 {
-    background: #292c3a;
+    background: #1e1e21;
 }
 
 .counter-wrapp .counter-column.bg5 {
-    background: #242734;
+    background: #000000;
 }
 
 .counter-column .icon-stroke {
@@ -6478,7 +6463,6 @@ Shopping cart
 .counter-item.text-only {
     position: relative;
     text-transform: uppercase;
-    letter-spacing: 2px;
     font-size: 18px;
     line-height: 24px;
     padding: 0;
@@ -6528,7 +6512,6 @@ Call to action
     text-align: center;
     font-size: 24px;
     line-height: 36px;
-    letter-spacing: 2px;
     border-top: 1px solid #dde1e4;
     border-bottom: 3px double #dde1e4;
     margin-bottom: -40px;
@@ -8071,7 +8054,6 @@ Login and register
     text-transform: uppercase;
     font-weight: 700;
     font-style: italic;
-    letter-spacing: 2px;
     color: #fff;
     text-decoration: none;
 }
@@ -8151,7 +8133,6 @@ div.loading-invisible {
     color: #787878;
     text-align: center;
     font-size: 18px;
-    letter-spacing: 4px;
 }
 
 .loading-center {
@@ -9077,7 +9058,6 @@ Tablet (portrait and landscape)
         margin-top: 0;
     }
     .border-spacing {
-        letter-spacing: 20px;
     }
     .cta-wrapp.cta-boxed h1,
     .cta-wrapp.cta-boxed h2,
@@ -9295,7 +9275,6 @@ Custome device
         left: 0;
     }
     .border-spacing {
-        letter-spacing: 18px;
     }
     .creativeBordering p {
         padding-top: 10px;
@@ -9500,7 +9479,7 @@ Small device
         padding: 40px 30px 20px 30px;
     }
     .border-spacing {
-        letter-spacing: 12px;
+
     }
     .col-icon.column-5,
     .col-icon.column-5.column-active {
@@ -9999,4 +9978,9 @@ a.openpanel:hover {
 
 #demo .title a {
     color: #000000;
+}
+
+.list-icons li i {
+    float: right;
+    margin: 6px 0 0 3px;
 }

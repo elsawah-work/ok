@@ -2491,7 +2491,8 @@ pre code {
         float: right;
     }
     .col-md-8 {
-        width: 66.66666667%
+        width: 66.66666667%;
+        
     }
     .col-md-7 {
         width: 58.33333333%
@@ -7190,7 +7191,6 @@ button.close {
     text-decoration: none;
     text-shadow: none;
     text-transform: none;
-    letter-spacing: normal;
     word-break: normal;
     word-spacing: normal;
     word-wrap: normal;
@@ -7324,7 +7324,6 @@ button.close {
     text-decoration: none;
     text-shadow: none;
     text-transform: none;
-    letter-spacing: normal;
     word-break: normal;
     word-spacing: normal;
     word-wrap: normal;

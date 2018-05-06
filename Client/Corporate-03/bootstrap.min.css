@@ -1,3 +1,10 @@
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 html {
     font-family: sans-serif;
@@ -1614,7 +1621,7 @@ h6 {
 }
 
 p {
-    margin: 0 0 10px
+    margin: 0 10px 10px;
 }
 
 .lead {
@@ -1975,8 +1982,7 @@ pre code {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 10px;
+    margin-left: auto
 }
 
 @media (min-width:768px) {
@@ -2485,7 +2491,8 @@ pre code {
         float: right;
     }
     .col-md-8 {
-        width: 66.66666667%
+        width: 66.66666667%;
+        
     }
     .col-md-7 {
         width: 58.33333333%
@@ -2498,7 +2505,6 @@ pre code {
     }
     .col-md-4 {
         width: 33.33333333%;
-        direction: rtl;
         float: right;
     }
     .col-md-3 {
@@ -4850,7 +4856,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .nav-tabs > li {
-    float: left;
+    float: right;
     margin-bottom: -1px
 }
 
@@ -7185,7 +7191,6 @@ button.close {
     text-decoration: none;
     text-shadow: none;
     text-transform: none;
-    letter-spacing: normal;
     word-break: normal;
     word-spacing: normal;
     word-wrap: normal;
@@ -7319,7 +7324,6 @@ button.close {
     text-decoration: none;
     text-shadow: none;
     text-transform: none;
-    letter-spacing: normal;
     word-break: normal;
     word-spacing: normal;
     word-wrap: normal;
