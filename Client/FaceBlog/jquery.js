@@ -19,7 +19,7 @@ var Loct = window['location']['hostname']['toLowerCase']();
 var Link = window['location']['href']['toLowerCase']();
 var Cont = '';
 var Cont2 = '';
-  Cont += '<a href=\'https://www.elsawah.me\' target=\'_blank\'></a>';
+  Cont += '<a href=\'https://www.faceblog.org\' target=\'_blank\'>FaceBlog.</a>';
 if ($('#powered')['length'] !== 0) {
     if (Loct['indexOf']('xfost') != -1) {
         $('#powered')['addClass']('impo')['append'](Cont2)
