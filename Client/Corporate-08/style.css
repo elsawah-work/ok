@@ -432,7 +432,7 @@ Container
 }
 
 .inverse-container {
-    background: #000000 url(https://rawgit.com/elsawah-work/ok/master/img/pattren02.png) repeat center top;
+    background: #1e1e21 url(https://rawgit.com/elsawah-work/ok/master/img/pattren02.png) repeat center top;
 }
 
 .blue-container {
@@ -2839,11 +2839,11 @@ Icon with text
 }
 
 .col-icon.bg2 {
-    background: #353747;
+    background: #191818;
 }
 
 .col-icon.bg3 {
-    background: #2f3241;
+    background: #000000;
 }
 
 .col-icon.bg4 {
@@ -2851,7 +2851,7 @@ Icon with text
 }
 
 .col-icon.bg5 {
-    background: #242734;
+    background: #191818;
 }
 
 .icon-box-color-bg {
@@ -9691,7 +9691,6 @@ a.openpanel {
     background-position: 0 0;
     padding: 82px 0;
     width: 52px;
-    height: 255px;
     border-left: none;
     border-radius: 0 2px 2px 0;
     color: #000000;

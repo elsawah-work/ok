@@ -3582,7 +3582,7 @@ Parallax
 }
 
 .parallax .overlay.inverse-bg {
-    background-color: #263341;
+    background-color: #1e1e21;
     opacity: 0.95;
     filter: alpha(opacity=95);
 }
@@ -4115,7 +4115,7 @@ Pricing
 }
 
 .pricing-list .list-column {
-    float: left;
+    float: right;
     width: 20%;
     padding: 0 0.5px;
 }
@@ -9691,7 +9691,6 @@ a.openpanel {
     background-position: 0 0;
     padding: 82px 0;
     width: 52px;
-    height: 255px;
     border-left: none;
     border-radius: 0 2px 2px 0;
     color: #000000;

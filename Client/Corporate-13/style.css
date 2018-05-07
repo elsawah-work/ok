@@ -2486,7 +2486,7 @@ Icon with text
 .abslute-icon .fa {
     position: absolute;
     top: 10px;
-    margin-right: -81px;
+    margin-left: 12px;
 }
 
 .abslute-icon.text-right .fa {
@@ -9691,7 +9691,6 @@ a.openpanel {
     background-position: 0 0;
     padding: 82px 0;
     width: 52px;
-    height: 255px;
     border-left: none;
     border-radius: 0 2px 2px 0;
     color: #000000;
