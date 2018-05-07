@@ -1173,7 +1173,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
         
 	nav.bootsnav.navbar-sidebar ul.nav li a i{
-		margin-right:5px;
+		margin-left:5px;
 	}
 	
     nav.bootsnav.navbar-sidebar ul.nav li.dropdown ul.dropdown-menu{

@@ -3230,7 +3230,7 @@ Team
 }
 
 .team-column-wrapp .team-content {
-    background: #000000 url(https://rawgit.com/elsawah-work/ok/master/img/pattren03.png) repeat-x center top;
+    background: #1e1e21 url(https://rawgit.com/elsawah-work/ok/master/img/pattren03.png) repeat-x center top;
     position: relative;
     min-height: 300px;
     border: none;
@@ -5073,7 +5073,7 @@ Gallery
     width: 80px;
     height: 8px;
     bottom: 0;
-    left: 0;
+    right: 0;
 }
 
 .meta-post {
@@ -9691,7 +9691,6 @@ a.openpanel {
     background-position: 0 0;
     padding: 82px 0;
     width: 52px;
-    height: 255px;
     border-left: none;
     border-radius: 0 2px 2px 0;
     color: #000000;

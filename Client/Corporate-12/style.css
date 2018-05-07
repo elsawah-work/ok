@@ -5073,7 +5073,7 @@ Gallery
     width: 80px;
     height: 8px;
     bottom: 0;
-    left: 0;
+    right: 0;
 }
 
 .meta-post {
@@ -6629,6 +6629,7 @@ Call to action
 .cta-wrapp.cta-boxed h6 {
     display: inline;
     margin-right: 30px;
+    float: right;
 }
 
 .cta-wrapp .btn {
@@ -9691,7 +9692,6 @@ a.openpanel {
     background-position: 0 0;
     padding: 82px 0;
     width: 52px;
-    height: 255px;
     border-left: none;
     border-radius: 0 2px 2px 0;
     color: #000000;
