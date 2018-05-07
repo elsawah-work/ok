@@ -1075,7 +1075,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     /* Navbar Sidebar
     =================================*/
     body.wrap-nav-sidebar .wrapper{
-        padding-left: 260px; 
+        padding-right: 260px; 
         overflow-x: hidden;
     }
 
@@ -1083,10 +1083,10 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         position: fixed;
         width: 260px;
         overflow: hidden;
-        left: 0;
+        right: 0;
         padding: 0 !important;
         background: #fff;
-        border-right: solid 15px #f9fafa;
+        border-left: solid 15px #f9fafa;
     }  
     
 	nav.bootsnav.navbar-sidebar.unborder{
@@ -1151,7 +1151,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
 	nav.bootsnav.navbar-sidebar ul.nav > li.megamenu-fw.active > a:hover{
 		background:#f9fafa;
 		border:none;
-		padding-left:20px;
+		padding-right:20px;
 		border-radius:5px 0 0 5px;
 	}
 
