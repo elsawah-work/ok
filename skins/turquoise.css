@@ -219,7 +219,8 @@ aside ul.link-list li a:active,
 ul.cat li a:hover,
 article.post h4 a:hover,
 article.post h5 a:hover,
-.recent-widget h6 a:hover{
+.recent-widget h6 a:hover,
+.sticky-menu .navbar-nav li.active a{
 	color:#28cac8;
 }
 
