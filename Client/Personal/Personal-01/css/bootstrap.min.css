@@ -4398,7 +4398,7 @@ tbody.collapse.show {
         -webkit-box-direction: normal;
         -ms-flex-direction: row;
         flex-direction: row;
-        margin-right: 37%;
+        margin-right: 33%;
     }
     .navbar-expand-lg .navbar-nav .dropdown-menu {
         position: absolute
