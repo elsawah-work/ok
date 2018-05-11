@@ -228,6 +228,9 @@ article.post h5 a:hover,
 /*
 Primary background
 =========================== */
+.service-box:before,
+.filters li.active,
+.social-ul li a:after,
 .primary-bg,
 .object,
 .attr-nav > ul > li > a span.badge,

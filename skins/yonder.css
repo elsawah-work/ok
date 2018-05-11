@@ -386,7 +386,10 @@ div.pp_default .pp_contract:hover,
 .meta-caption li a:hover,
 .meta-caption li a:focus,
 .meta-caption li a:active,
-footer .widget .single-network .icon-circle:hover{
+footer .widget .single-network .icon-circle:hover,
+.service-box:before,
+.filters li.active,
+.social-ul li a:after,{
 	background-color:#9295bb;
 }
 
