@@ -68,6 +68,7 @@ CSS structure
 /*
 Primary color
 =========================== */
+.navbar-default .navbar-nav > li .active,
 #demo .title a:hover,
 .primary,
 a,
