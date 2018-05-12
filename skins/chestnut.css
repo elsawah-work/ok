@@ -228,6 +228,7 @@ article.post h5 a:hover,
 /*
 Primary background
 =========================== */
+.owl-theme .owl-controls .owl-page span,
 .service-box:before,
 .filters li.active,
 .social-ul li a:after,

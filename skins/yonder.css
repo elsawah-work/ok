@@ -228,6 +228,7 @@ article.post h5 a:hover,
 /*
 Primary background
 =========================== */
+.owl-theme .owl-controls .owl-page span,
 .primary-bg,
 .object,
 .attr-nav > ul > li > a span.badge,
