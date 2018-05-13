@@ -8552,10 +8552,11 @@ footer.soft-container .subfooter {
 }
 
 .subfooter ul {
-    float: right;
+    float: left;
     margin: 10px 30px 0 0;
     padding: 0;
     margin-bottom: 8px;
+        margin-left: 40%;
 }
 
 .subfooter ul li {
