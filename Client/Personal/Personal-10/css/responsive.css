@@ -1,0 +1,201 @@
+/*  -------------------------------------------------------------------------------
+ *  Media Queries
+ *  -------------------------------------------------------------------------------
+ *
+ *  This part contains the all changes that needed for elements for the Bootsrap
+ *  widths like iPhone image in About me section
+ *
+ *  It's divided to the following sections:
+ *
+ *     |
+       |-->   - Width between 1200px to 0
+       |-->   - Width between 767px to 0
+*/
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start GLOBAL CSS Style Responsive
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 560px) {
+    
+    .titles h2 {
+        font-size: 35px !important;
+    }
+    
+    p {
+        font-size: 13px !important;
+    }
+    
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start Header - Home
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 992px) {
+
+    .header .head-right .box-head-right .items-head-right {
+        text-align: left;
+        color: white;
+        margin-left: 10%;
+    }
+    
+    .header .head-left .box-head-left .items-head-left h2 {
+        font-size: 57px;
+    }
+    
+    .header .head-left .box-head-left .items-head-left p {
+        display: none;
+    }
+
+}
+
+@media (max-width: 777px) {
+
+    .header .head-right .box-head-right .items-head-right {
+        display: none;
+    }
+
+}
+
+@media (max-width: 750px) {
+
+    .header .head-left .box-head-left .items-head-left h2 {
+        background: transparent;
+        font-size: 45px;
+    }
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start About Me 
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 414px) {
+
+    .about .about-right .about-right-items {
+        width: 100%;
+        position: relative;
+        top: 0;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        transform: none;
+    }
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start My Skills 
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 991px) {
+
+    .skills .skills-left .skills-left-items {
+        width: 70% !important;
+    }
+    
+    .skills .skills-right {
+        left: 75% !important;
+    }
+    
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start My Services 
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 991px) {
+
+    .services .services-left {
+        width: 70% !important;
+    }
+
+    .services .services-right {
+        left: 75% !important;
+    }
+    
+    .services .services-left .boxs-items-ser .items-ser {
+        padding: 0;
+        padding-left: 20px;
+    }
+    
+    .services .services-left .boxs-items-ser .items-ser p {
+        display: none !important;
+    }
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start My Portfolio 
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 991px) {
+
+    .portfolio-boxes, 
+    .Overlay-portfolio,
+    .bg-portfolio img {
+        height: 95px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .info-item-portfolio p {
+        display: none;
+    }
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start My Blogs 
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 991px) {
+
+    .blogs .picture-blog {
+        left: 75% !important;
+    }
+    
+     .blogs .picture-blog {
+        width: 70% !important;
+    }
+    
+    .blogs .box-posts .items-posts {
+        width: 100%;
+        position: relative;
+        -webkit-transform: 0;
+        -moz-transform: 0;
+        -ms-transform: 0;
+        -o-transform: 0;
+        transform: 0;
+        overflow: hidden;
+    }
+    
+    .blogs .box-posts .items-posts .post .pic-post img {
+        height: 155px;
+    }
+    
+    .blogs .box-posts .items-posts .post .info-post p {
+        display: none;
+    }
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start Freelance 
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 767px) {
+
+    .freelancer .container .box-freelancer h2 {
+        font-size: 36px;
+    }
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*      * End  
+/*-----------------------------------------------------------------------------------*/

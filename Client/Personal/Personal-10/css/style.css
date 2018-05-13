@@ -1,0 +1,884 @@
+
+
+/*-----------------------------------------------------------------------------*/
+/*  01 - Start GENERAL STYLING
+/*-----------------------------------------------------------------------------*/
+
+
+body {
+    font-family: 'Cairo', sans-serif;
+    overflow: hidden !important;
+    padding: 0;
+    margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Changa', sans-serif;
+}
+img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+
+textarea { 
+    resize: vertical;
+} 
+
+p {
+    line-height: 2;
+}
+
+::-moz-selection{
+    color:#fff;
+    background:#404040;
+}
+
+::selection{
+    color:#fff;
+    background:#404040;
+}
+
+.wow {
+    visibility: visible !important;
+}
+
+.titles h2 {
+    font-weight: 500;
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+.pp-tableCell {
+    display: block;
+}
+
+#circle-white {
+    background: white !important;
+    border-color: white !important;
+}
+
+#circle-white-child {
+    background: transparent !important;
+    border-color: white !important;
+}
+
+#circle-black {
+    background: #404040 !important;
+    border-color: #404040 !important;
+}
+
+#circle-black-child {
+    background: transparent !important;
+    border-color: #404040 !important;
+}
+
+.pad-left {
+    padding-left: 0
+}
+
+.pad-right {
+    padding-right: 0
+}
+
+.slick-slide {
+    cursor: all-scroll;
+    outline: none
+}
+
+.slick-prev, .slick-next {
+    background: #404040;
+    padding-top: 1px;
+    height: 30px;
+    width: 30px;
+    z-index: 2;
+}
+
+.slick-prev {
+    left: 7%;
+    top: 60%;
+}
+
+.slick-next {
+    right: 7%;
+    top: 60%;
+}
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+    color: white;
+    outline: none;
+    background: black;
+}
+
+.custom-button {
+    display: none !important;
+}
+
+/*-----------------------------------------------------------------------------*/
+/*  02 - Start Sections Page Loader 
+/*-----------------------------------------------------------------------------*/
+
+.loader {
+    position: fixed;
+    width: 100%;
+    background: white;
+    z-index: 999;
+}
+
+.loading-screen {
+    background-color: white;
+    top: 0;
+    left: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    max-height: 100vh;
+    z-index: 6000;
+    overflow:hidden;
+}
+
+#loading-screen .loader-inner {
+    height: 60px;
+    width: 60px;
+    border: 2px solid transparent;
+    border-top-color: #404040;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    -webkit-animation: round 1s ease;
+    -moz-animation: round 1s ease;
+    -o-animation: round 1s ease;
+    animation: round 1s linear infinite
+}
+
+#loading-screen {
+    height: 100vh;
+}
+
+#loading-screen .text-load {
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: relative;
+    text-align: center;
+    color: #404040;
+    width: 100%;
+    top: 50%;
+}
+
+#loading-screen .text-load p {
+    padding-top: 12%;
+    text-transform: capitalize;
+}
+
+@-webkit-keyframes round{
+    from {
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes round{
+    from {
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+@-o-keyframes round{
+    from {
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes round{
+    from {
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+/*----------------------------------------------------------------------------*/
+/*  03 - Start Sections Navigation Menu
+/*----------------------------------------------------------------------------*/
+
+.menu {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+}
+
+.menu .icon-menu {
+    float: right;
+    z-index: 999;
+    position: relative;
+    color: white;
+    padding: 45px 0;
+}
+
+.menu .icon-menu img {
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+}
+.menu .icon-menu .icon {
+    position: absolute;
+    top: 18px;
+    font-size: 55px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.list-menu {
+    display: none;
+}
+
+#vis-menu-close {
+    visibility: visible;
+}
+
+#hid-box-left-head {
+    visibility: hidden;
+} 
+
+.list-menu .list-unstyled {
+    margin-top: 60px;
+    background: url(../Pictures/Logo/bgTitles.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.list-menu .list-unstyled li {
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.list-menu .list-unstyled li a {
+    text-transform: capitalize;
+    color: #404040;
+}
+
+
+/*----------------------------------------------------------------------------*/
+/*  04 - Start Sections Header - Home
+/*----------------------------------------------------------------------------*/
+
+.header {
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    background: white;
+    box-shadow: 0px 0px 30px 5px rgba(158,158,158,0.1);
+}
+
+.header .tree {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: -2%;
+    top: -4%;
+} 
+
+.header .head-left .box-head-left,
+.header .head-right .box-head-right {
+    height: 100vh;
+}
+
+.header .head-left .box-head-left .items-head-left,
+.header .head-right .box-head-right .items-head-right {
+    width: 100%;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 999;
+}
+
+.header .head-left .box-head-left .items-head-left span {
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.header .head-left .box-head-left .items-head-left h2 {
+    font-weight: 500;
+    font-size: 65px;
+    line-height: 1.3;
+    background: url(../Pictures/Logo/bgTitles.png);
+    background-repeat: no-repeat;
+}
+
+.header .head-right {
+    position: absolute;
+    left: 50%;
+    padding: 0;
+}
+
+.header .head-right .box-head-right {
+    background: url(../Pictures/Backgounds/bgHead2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+.header .head-right .box-head-right .items-head-right {
+    text-align: center;
+    color: white;
+}
+
+.header .head-left .box-head-left .items-head-left .social-head a {
+    color: #404040;
+    margin-right: 15px;
+    font-size: 22px;
+}
+
+.header .head-left .box-head-left .items-head-left .social-head a i {
+    transition: all 0.5s ease 0s;
+    font-size: 18px;
+}
+
+.header .head-left .box-head-left .items-head-left .social-head a i:hover {
+    color: #f1d37d;
+}
+
+.header .container-position {
+    position: relative;
+    background: red;
+}
+
+.header .box-arrow-slide {
+    position: absolute;
+    text-align: center;
+    display: block;
+    bottom: 33px;
+    right: 0;
+    left: 0;
+    color: white;
+    -webkit-animation: moveup 2s infinite;
+    -moz-animation: moveup 2s infinite;
+    -ms-animation: moveup 2s infinite;
+    -o-animation: moveup 2s infinite;
+    animation: moveup 2s infinite;
+}
+
+.header .box-arrow-slide .lines-break {
+    position: relative;
+    display: block;
+    width: 32px;
+    height: 49px;
+    margin: 0 auto 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: right;
+}
+
+.header .box-arrow-slide .lines-break .ion-ios-arrow-down {
+    position: absolute;
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+}
+
+@keyframes moveup {
+    0% {
+        margin-bottom: 0
+    }
+    50% {
+        margin-bottom: -10px
+    }
+    100% {
+        margin-bottom: 0
+    }
+}
+
+/*-----------------------------------------------------------------------------*/
+/*  05 - Start Sections About Me 
+/*-----------------------------------------------------------------------------*/
+
+.about {
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    box-shadow: 0px 0px 30px 5px rgba(158,158,158,0.1);
+}
+
+.about .about-left {
+    position: absolute;
+    right: 50%;
+    padding: 0;
+}
+
+.about .about-left .box-about-left {
+    background: url(../Pictures/Backgounds/about.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+}
+
+.about .about-right {
+    height: 100vh;
+    float: right;
+    width: 50%;
+}
+
+.about .about-right .about-right-items {
+    width: 100%;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.about .about-right .about-right-items .titles img {
+    width: auto;
+    margin-top: 25px
+}
+
+/*-----------------------------------------------------------------------------*/
+/*  06 - Start Section My Skills  
+/*-----------------------------------------------------------------------------*/
+
+.skills {
+    overflow: hidden;
+    height: 100vh !important;
+    width: 100% !important;
+    display: block !important;
+    box-shadow: 0px 0px 30px 5px rgba(158,158,158,0.1);
+    background: white;
+}
+
+.skills .skills-left {
+    height: 100vh
+}
+
+.skills .skills-left .skills-left-items {
+    width: 100%;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.skills .skills-left .skills-left-items .progress {
+    background-color: #ccc;
+    border-radius: 0;
+    height: 2px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.skills .skills-left .skills-left-items .progress-bar {
+    background-color: #404040;
+    border-radius: 0;
+}
+
+.skills .skills-left .skills-left-items .progress-contents {
+    padding: 2% 0;
+}
+
+.skills .skills-left .skills-left-items .progress-contents h3 {
+    font-weight: 400;
+    text-transform: capitalize;
+    display: inline;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+.skills .skills-left .skills-left-items .progress-contents p {
+    text-transform: capitalize;
+    display: inline-block;
+    display: none;
+}
+
+.skills .skills-left .skills-left-items .progress-contents .percent {
+    font-size: 18px;
+    display: inline-block;
+    float: left;
+}
+
+.skills .skills-left .skills-left-items .percent-progress-bar-one {
+    width: 97%;
+}
+
+.skills .skills-left .skills-left-items .percent-progress-bar-two {
+    width: 78%;
+}
+
+.skills .skills-left .skills-left-items .percent-progress-bar-three {
+    width: 76%;
+}
+
+.skills .skills-right {
+    position: absolute;
+    padding: 0;
+    height: 100vh !important;
+    right: 0;
+}
+
+.skills .skills-right .box-picture-skills {
+    background:  url(../Pictures/Backgounds/skills.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 100%;
+    width: 100%;
+}
+
+/*-----------------------------------------------------------------------------*/
+/*  07 - Start Section Video Background
+/*-----------------------------------------------------------------------------*/
+
+.video-background {
+    background: white;
+}
+
+.video-background video {
+    cursor: pointer;
+    margin: 37px 0;
+    height: 90vh;
+    width: 100%;
+}
+
+/*-----------------------------------------------------------------------------*/
+/*  08 - Start Section My Services
+/*-----------------------------------------------------------------------------*/
+
+.services {
+    overflow: hidden;
+    height: 100vh !important;
+    width: 100% !important;
+    display: block !important;
+    box-shadow: 0px 0px 30px 5px rgba(158,158,158,0.1);
+    background: white;
+}
+
+.services .services-left {
+    height: 100vh;
+}
+
+.services .services-left .services-left-items {
+    width: 100%;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+
+.services .bg-ccc {
+    background: #fafafa;
+    transition: all 0.5s ease 0s;
+}
+
+.services .bg-ccc:hover {
+    background: #fafafa !important;
+}
+
+.services .services-left .boxs-items-ser .items-ser {
+    transition: all 0.5s ease 0s;
+    border: 1px solid #ccc;
+    padding: 25px 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.services .services-left .boxs-items-ser .items-ser:hover {
+    background:  #fafafa !important;
+	box-shadow:  0px 0px 30px 5px rgba(158,158,158,0.1);
+}
+
+.services .services-left .boxs-items-ser .items-ser h3 {
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.services .services-right {
+    position: absolute;
+    padding: 0;
+    height: 100vh !important;
+    right: 0;
+}
+
+.services  .services-right .box-picture-services {
+    background: url(../Pictures/Backgounds/Services.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 100%;
+    width: 100%;
+} 
+
+/*-----------------------------------------------------------------------------*/
+/*  09 - Start My Portfolio
+/*-----------------------------------------------------------------------------*/
+
+.portfolio {
+    background: white;
+    overflow: hidden;
+    display: none
+}
+
+ .portfolio .portfolio-left {
+    position: absolute;
+    right: 50%;
+    padding: 0;
+}
+
+ .portfolio .portfolio-left .portfolio-picture {
+    background: url(../Pictures/Backgounds/portfolio.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+}
+
+.portfolio .portfolio-right {
+    height: 100vh;
+    float: right;
+    width: 50%;
+}
+
+.portfolio .portfolio-items {
+    width: 100%;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+
+.portfolio-boxes {
+    transition: all 0.5s ease 0s;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.Overlay-portfolio {
+    position: absolute;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.32);
+    z-index: 1;
+}
+
+#bgop-portfolio {
+    background: rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease 0s;
+}
+
+.bg-portfolio {
+    position: absolute;
+    overflow: hidden;
+}
+
+.portfolio-boxes, .Overlay-portfolio, .bg-portfolio img {
+    transition: all 0.5s ease 0s;
+    height: 230px;
+}
+
+.info-item-portfolio {
+    z-index: 1;
+    color: white;
+    width: 100%;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+
+.info-item-portfolio h3 {
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+#scale {
+    transition: all 0.5s ease 0s;
+    transform: scale(1.5);
+}
+
+/*-----------------------------------------------------------------------------*/
+/*  10 - Start My Blogs
+/*-----------------------------------------------------------------------------*/
+
+.blogs {
+    background: white;
+    display: none
+}
+
+.blogs .box-posts {
+    height: 100vh;
+    float: left;
+    width: 50%;
+}
+
+.blogs .box-posts .items-posts {
+    width: 100%;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+
+.blogs .picture-blog {
+    position: absolute;
+    padding: 0;
+    height: 100vh !important;
+    right: 0;
+}
+
+.blogs .picture-blog .pictureblog-section {
+    background: url(../Pictures/Backgounds/blog.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 100%;
+    width: 100%;
+}
+
+.blogs .box-posts .items-posts .post .pic-post img {
+    height: 230px
+}
+
+.info-post h3 {
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.info-post h3 a {
+    color: #404040;
+}
+
+.info-post h3 a:hover,
+.info-post h3 a:active,
+.info-post h3 a:focus {
+    text-decoration: none;
+}
+
+/*-----------------------------------------------------------------------------*/
+/*  11 - Start Freelancer Job
+/*-----------------------------------------------------------------------------*/
+
+.freelancer {
+    margin: 37px 0
+}
+
+.freelancer .container:nth-child(1) {
+    position: relative;
+    overflow: hidden;
+    height: 67vh;
+}
+
+.freelancer .container .box-freelancer {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    height: 100%;
+}
+
+.freelancer .container .box-freelancer h2 {
+    font-size: 55px;
+    margin: auto;
+    line-height: 1.5;
+    width: 100%;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+
+.freelancer .container .freelance-overlay {
+    position: absolute;
+    width: 100%;
+    height: 67vh;
+    background: rgba(0, 0, 0, 0.23);
+}
+
+.freelancer .container .freelance-bg {
+    height: 67vh;
+}
+
+.freelancer .container .freelance-bg img {
+    width: 100%;
+    height: 100%;
+}
+
+.freelancer .container:nth-child(2) {
+    padding-top: 2%;
+}
+
+.freelancer .container .box-phones h3,
+.freelancer .container .box-emials h3,
+.freelancer .container .box-address h3 {
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.freelancer .container .box-phones p,
+.freelancer .container .box-emials p,
+.freelancer .container .box-address p {
+    margin: 0;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*      * End  
+/*-----------------------------------------------------------------------------------*/
