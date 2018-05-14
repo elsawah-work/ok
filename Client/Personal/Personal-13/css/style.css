@@ -1,0 +1,1540 @@
+
+
+/*===================================
+  01. Header Style 01
+====================================== */
+body{
+    font-family: 'Cairo', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5{
+    font-family: 'Changa', sans-serif;
+}
+.header .navbar-toggler {
+  background: #fff;
+  border-radius: 0;
+}
+.header {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 99;
+  -webkit-transition: ease all 0.3s;
+     -moz-transition: ease all 0.3s;
+       -o-transition: ease all 0.3s;
+          transition: ease all 0.3s;
+}
+
+.header .navbar {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.header .navbar-nav > li {
+  padding: 10px 0;
+}
+.header .navbar-nav > li > a {
+  padding: 26px 5px;
+  background: transparent;
+  border-color: transparent;
+  font-weight: 300;
+  margin: 0 15px;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  -webkit-transition: ease all 0.3s;
+     -moz-transition: ease all 0.3s;
+       -o-transition: ease all 0.3s;
+          transition: ease all 0.3s;
+}
+
+/*===================================
+  02. Header Style 02
+====================================== */
+
+.header-style-1 .navbar-brand {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+}
+.header-style-1 .navbar-brand:hover {
+  color: #fff;
+}
+
+.header-style-1 .navbar-nav > li > a:after {
+  background: #fff;
+  content: "";
+  right: 0;
+  width: 0;
+  top: 0;
+  bottom: 0;
+  height: 1px;
+  margin:auto;
+  position: absolute;
+  -webkit-transition: ease all 0.3s;
+     -moz-transition: ease all 0.3s;
+       -o-transition: ease all 0.3s;
+          transition: ease all 0.3s;
+
+}
+.header-style-1 .navbar-nav > li > a.current:after {
+  width: 100%;
+}
+
+.header-style-1 .navbar-nav > li > a:hover {
+  opacity: 0.65%;
+}
+
+.header-style-1.fixed-header {
+  background: #fff;
+  box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.6);
+}
+.header-style-1.fixed-header .navbar-brand {
+  color: #232323;
+}
+.header-style-1.fixed-header .navbar-nav > li > a {
+  color: #232323;
+}
+
+.header-style-1.fixed-header .navbar-nav > li > a:after {
+  background: #232323;
+}
+
+@media (max-width: 991px){
+  .header-style-1 {
+    background: #fff;
+  }
+  .header-style-1 .navbar-brand {
+    color: #232323;
+  }
+
+  .header-style-1 .navbar-nav > li > a {
+    padding: 0;
+    display: inline-block;
+    color: #232323;
+    margin: 0;
+  }
+
+  .header-style-1 .navbar-nav > li > a:after {
+    background: #000;
+  }
+  .header-style-1 .navbar-nav > li > a:after {
+    background: #000;
+  }
+
+}
+
+
+/*===================================
+  03. Header Style 03
+====================================== */
+.header-pagepiling .pp-action {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 11;
+  width: 60px;
+  background: #111;
+  height: 100%;
+}
+.header-pagepiling .navbar-brand {
+  float: right;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: 45px;
+  line-height: 60px;
+  padding: 0;
+  color: #fff;
+
+}
+.header-pagepiling .pl-navbar {
+  float: left;
+}
+
+.header-pagepiling .pl-navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  -webkit-transform: translatey(-50%);
+  -moz-transform: translatey(-50%);
+  -o-transform: translatey(-50%);
+  transform: translatey(-50%);
+}
+.header-pagepiling .pl-navbar li {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  text-align: center;
+  padding: 12px 0;
+}
+
+.header-pagepiling .pl-navbar li a {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  display: block;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.header-pagepiling .pl-navbar {
+  position: fixed;
+  top: 0;
+  right: -260px;
+  z-index: 9;
+  width: 200px;
+  background: #222;
+  height: 100%;
+  overflow-y: auto;
+  opacity: 0;
+  -webkit-transition: ease all 0.5s;
+     -moz-transition: ease all 0.5s;
+       -o-transition: ease all 0.5s;
+          transition: ease all 0.5s;
+}
+
+.pp-menu-open .header-pagepiling .pl-navbar {
+  right: 60px;
+  opacity: 1;
+  box-shadow: 0px 12px 12px 1px #000;
+}
+
+.pp-toggle {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 60px;
+  width: 60px;
+  border: none;
+  background: #222;
+  cursor: pointer;
+}
+
+.pp-toggle .icon-bar {
+  width: 40px;
+  display: inline-block;
+  background: #fff;
+  height: 3px;
+  vertical-align: top;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: auto;
+  left: 0;
+  bottom: 0;
+}
+.pp-toggle .icon-bar:first-child {
+  bottom: auto;
+  top: 15px;
+}
+.pp-toggle .icon-bar:last-child {
+  top: auto;
+  bottom: 15px;
+  
+}
+
+.pp-menu-open .pp-toggle .icon-bar {
+  opacity: 0;
+}
+.pp-menu-open .pp-toggle .icon-bar:first-child {
+  bottom: 0;
+  top: 0;
+  opacity: 1;
+  -webkit-transition: ease all 0.5s;
+     -moz-transition: ease all 0.5s;
+       -o-transition: ease all 0.5s;
+          transition: ease all 0.5s;
+  -webkit-transform: rotate(45deg);
+     -moz-transform: rotate(45deg);
+       -o-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.pp-menu-open .pp-toggle .icon-bar:last-child {
+  top: 0;
+  bottom: 0;
+  opacity: 1;
+  -webkit-transition: ease all 0.5s;
+     -moz-transition: ease all 0.5s;
+       -o-transition: ease all 0.5s;
+          transition: ease all 0.5s;
+  -webkit-transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+       -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+@media (max-width: 991px){
+  #pp-nav {
+    display: none !important;
+  }
+  .header-pagepiling .pp-action {
+    height: auto;
+    width: 100%;
+  }
+  .pp-toggle {
+    bottom: auto;
+    top: 0;
+    right: auto;
+    left: 0;
+  }
+  .pp-menu-open .header-pagepiling .pl-navbar {
+   right: 0; 
+  }
+}
+
+
+/*===================================
+  04. Header Style 04
+====================================== */
+.header-style-2 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 11;
+}
+.header-style-2 .navbar {
+  padding: 0;
+  margin-right: 285px;
+}
+.header-style-2 .navbar-nav > li {
+  padding: 0;
+}
+.header-style-2 .navbar-nav > li > a {
+  padding: 15px 5px;
+  background: transparent;
+  border-color: transparent;
+  font-weight: 600;
+  margin: 0 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+  display: block;
+  color: #333;
+}
+.header-style-2 .navbar-nav > li > a:after {
+  width: 0;
+  height: 4px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  content:"";
+  transition: ease all 0.3s;
+}
+.header-style-2 .navbar-nav > li > a.current:after {
+  width: 100%;
+}
+
+.header-style-2 .social-icons li {
+  margin: 0 4px;
+}
+.header-style-2 .social-icons a {
+  font-size: 14px;
+  width: 30px;
+  height: 30px;
+  line-height: 28px;
+}
+
+@media (max-width: 991px){
+  .header-style-2 {
+    z-index: 999;
+  }
+  .header-style-2 .navbar {
+    margin-right: 0;
+    padding: 0;
+  }
+  .header-style-2 .social-icons {
+    position: absolute;
+    top: 9px;
+    left: 12px;
+  }
+  .header-style-2 .navbar-nav > li > a {
+    margin: 0;
+  }
+}
+@media (max-width: 767px){
+  .header-style-2 .navbar {
+    padding: 7px;
+  }
+}
+
+/*===================================
+  05. Header Style 05
+====================================== */
+.header-style-3 .navbar-brand {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+}
+.header-style-3 .navbar-brand:hover {
+  color: #fff;
+}
+
+.header-style-3 .navbar-nav > li > a {
+  border-radius: 30px;
+  padding: 8px 18px;
+  margin: 0 6px;
+  font-weight: 600;
+}
+
+.header-style-3 .navbar-nav > li > a:hover,
+.header-style-3 .navbar-nav > li > a.current {
+  color: #fff;
+}
+
+.header-style-3.fixed-header {
+  background: #fff;
+  box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.6);
+}
+.header-style-3.fixed-header .navbar-brand {
+  color: #232323;
+}
+.header-style-3.fixed-header .navbar-nav > li > a {
+  color: #232323;
+}
+.header-style-3.fixed-header .navbar-nav > li > a:hover,
+.header-style-3.fixed-header .navbar-nav > li > a.current {
+  color: #fff;
+}
+
+@media (max-width: 991px){
+  .header-style-3 {
+    background: #fff;
+  }
+  .header-style-3 .navbar-brand {
+    color: #232323;
+  }
+  .header-style-3 .navbar-nav > li > a {
+    margin: 0;
+    color: #232323;
+    font-weight: 600;
+    padding: 5px 18px;
+    display: inline-block;
+    background: #eee;
+  }
+}
+
+/*===================================
+  06. Header Style 06
+====================================== */
+.header-style-4 {
+  background: #fff;
+}
+
+.header-style-4 .navbar-brand {
+  text-transform: uppercase;
+  color: #232323;
+  font-weight: 600;
+}
+
+.header-style-4 .navbar-nav > li > a {
+  padding: 22px 18px;
+  margin: 0 6px;
+  font-weight: 600;
+  color: #333;
+}
+
+.header-style-4 .navbar-nav > li > a:hover,
+.header-style-4 .navbar-nav > li > a.current {
+  color: #fff;
+}
+
+.header-style-4.fixed-header {
+  background: #fff;
+  box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.6);
+}
+.header-style-4.fixed-header .navbar-nav > li > a {
+  color: #232323;
+}
+.header-style-4.fixed-header .navbar-nav > li > a:hover,
+.header-style-4.fixed-header .navbar-nav > li > a.current {
+  color: #fff;
+}
+
+@media (max-width: 991px){
+  .header-style-4 .navbar-nav {
+    padding-top: 10px;
+  }
+  .header-style-4 .navbar-nav > li {
+    padding: 0;
+  }
+  .header-style-4 .navbar-nav > li > a {
+    margin: 0;
+    color: #232323;
+    font-weight: 600;
+    padding: 5px 18px;
+    background: #eee;
+    display: block;
+  }
+}
+
+/*===================================
+  07. Header Style 07
+====================================== */
+
+.header-style-5.fixed-header {
+  background: #111;
+  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06), 0 4px 5px 0 rgba(0,0,0,0.06), 0 1px 10px 0 rgba(0,0,0,0.08);
+}
+
+.header-style-5 .navbar-brand {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+}
+.header-style-5 .navbar-brand:hover {
+  color: #fff;
+}
+
+.header-style-5 .navbar-nav > li > a:after {
+  content: "";
+  background: #2196f3;
+  width: 0;
+  height: 10px;
+  float: right;
+  border-radius: 0 0 0 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  -webkit-transition: ease all 0.5s;
+  -moz-transition: ease all 0.5s;
+  -o-transition: ease all 0.5s;
+  transition: ease all 0.5s;
+}
+.header-style-5 .navbar-nav > li > a:hover:after,
+.header-style-5 .navbar-nav > li > a.current:after {
+  width: 100%;
+}
+
+@media (max-width: 991px){
+  .header-style-5 {
+    background: #000;
+  }
+  .header-style-5 .navbar-nav {
+    padding-top: 10px;
+  }
+  .header-style-5 .navbar-nav > li {
+    padding: 0;
+  }
+  .header-style-5 .navbar-nav > li > a {
+    margin: 0;
+    display: block;
+    padding: 5px 0;
+  }
+  .header-style-5 .navbar-nav > li > a:after {
+    height: 4px;
+  }
+}
+
+/*===================================
+  08. Header Style 08
+====================================== */
+
+.header-style-6 .navbar-brand {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+}
+.header-style-6 .navbar-brand:hover {
+  color: #fff;
+}
+.header-style-6 .navbar-nav > li > a {
+  font-weight: 600
+}
+
+.header-style-6 .navbar-nav > li > a:after {
+  background: #fff;
+  content: "";
+  right: -10px;
+  width: 0;
+  top: 0;
+  bottom: 0;
+  height: 4px;
+  margin:auto;
+  position: absolute;
+  -webkit-transition: ease all 0.3s;
+     -moz-transition: ease all 0.3s;
+       -o-transition: ease all 0.3s;
+          transition: ease all 0.3s;
+
+}
+.header-style-6 .navbar-nav > li > a.current:after {
+  width: 10px;
+}
+
+.header-style-6 .navbar-nav > li > a:hover {
+  opacity: 0.65%;
+}
+
+.header-style-6.fixed-header {
+  background: #fff;
+  box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.6);
+}
+.header-style-6.fixed-header .navbar-brand {
+  color: #232323;
+}
+.header-style-6.fixed-header .navbar-nav > li > a {
+  color: #232323;
+}
+
+.header-style-6.fixed-header .navbar-nav > li > a:after {
+  background: #232323;
+}
+
+@media (max-width: 991px){
+  .header-style-6 {
+    background: #fff;
+  }
+  .header-style-6 .navbar-brand {
+    color: #232323;
+  }
+
+  .header-style-6 .navbar-nav > li > a:after {
+    background: #000;
+  }
+
+  .header-style-6 .navbar-nav > li > a {
+    margin: 0;
+    color: #232323;
+    font-weight: 600;
+    padding: 0 0 0 7px;
+    display: inline-block;
+  }
+
+  .header-style-1 .navbar-nav > li > a:after {
+    background: #000;
+  }
+
+}
+
+/*===================================
+  08. Header Style 09
+====================================== */
+
+.header-style-7 .navbar-brand {
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.header-style-7 .navbar-brand:hover {
+  color: #000;
+}
+.header-style-7 .navbar-nav > li > a {
+  font-weight: 500;
+  color: #000;
+  letter-spacing: 2px
+}
+
+.header-style-7 .navbar-nav > li > a:after {
+  background: #000;
+  content: "";
+  right: -10px;
+  width: 0;
+  top: 0;
+  bottom: 0;
+  height: 4px;
+  margin:auto;
+  position: absolute;
+  -webkit-transition: ease all 0.3s;
+     -moz-transition: ease all 0.3s;
+       -o-transition: ease all 0.3s;
+          transition: ease all 0.3s;
+
+}
+.header-style-7 .navbar-nav > li > a.current:after {
+  width: 10px;
+}
+
+.header-style-7 .navbar-nav > li > a:hover {
+  opacity: 0.65%;
+}
+
+.header-style-7.fixed-header {
+  background: #fff;
+  box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.6);
+}
+.header-style-7.fixed-header .navbar-brand {
+  color: #232323;
+}
+.header-style-7.fixed-header .navbar-nav > li > a {
+  color: #232323;
+}
+
+.header-style-7.fixed-header .navbar-nav > li > a:after {
+  background: #232323;
+}
+
+@media (max-width: 991px){
+  .header-style-7 {
+    background: #fff;
+  }
+  .header-style-7 .navbar-brand {
+    color: #232323;
+  }
+
+  .header-style-7 .navbar-nav > li > a:after {
+    background: #000;
+  }
+
+  .header-style-7 .navbar-nav > li > a {
+    margin: 0;
+    color: #232323;
+    font-weight: 600;
+    padding: 0 0 0 7px;
+    display: inline-block;
+  }
+
+  .header-style-1 .navbar-nav > li > a:after {
+    background: #000;
+  }
+
+}
+
+/*===================================
+  09. Home Banner 01
+====================================== */
+.home-banner {
+  position: relative;
+}
+.banner-center-text {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  left: 15px; 
+  -webkit-transform: translatey(-50%);
+     -moz-transform: translatey(-50%);
+       -o-transform: translatey(-50%);
+          transform: translatey(-50%);
+}
+
+.full-screen {
+  height: 100vh;
+}
+
+/*===================================
+  10. Home Banner 02
+====================================== */
+.particles-box {
+  height: 100vh;
+}
+.particles-box .container {
+  position: relative;
+  min-height: 100%;
+}
+.particles-box .banner-center-text {
+  z-index: 1;
+  left: auto;
+}
+.particles-box .particles-js-canvas-el {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+@media (max-width: 991px){
+  .particles-box {
+    height: 120vh;
+  }
+
+  .fixed-header-body .particles-box {
+    height: 100vh;
+  }
+}
+
+/*===================================
+  11. Home Banner 03
+====================================== */
+.home-banner-01 .container {
+  position: relative;
+  min-height: 100vh;
+}
+
+/*===================================
+  12. Home Banner 04
+====================================== */
+.home-banner-02 .banner-center-text {
+  max-width: 85%;
+  background: rgba(255,255,255,0.9);
+  outline: 1px solid #fff;
+  outline-offset: 8px;
+}
+
+/*===================================
+  13. Home Banner 05
+====================================== */
+.home-banner-03 .container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.home-banner-03 .banner-center-text {
+  max-width: 100%;
+  background: rgba(32,32,32,0.9);
+  outline: 1px solid #fff;
+  outline-offset: 8px;
+}
+
+/*===================================
+  13. Home Banner 06
+====================================== */
+.home-banner-04 .container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.home-banner-04 .banner-center-text {
+  
+}
+
+/*===================================
+  14. Home Video Banner
+====================================== */
+.home-banner-video {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+.home-banner-video .filter {
+  background: #000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  opacity: 0.6;
+}
+.home-banner-video .fillWidth {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+.home-banner-video .banner-center-text {
+  z-index: 1;
+}
+
+/*===================================
+  15. Portfolio
+====================================== */
+/*portfolio box*/
+.portfolio-box .filter a {
+  background: none;
+  border:none;
+  padding: 0 5px;
+  margin: 0 15px;
+  text-transform: uppercase;
+  font-weight: 400;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+.portfolio-box .filter-right a {
+  margin: 0 15px 0 0;
+}
+.portfolio-box .filter a:after{
+  content: "";
+  position: absolute;
+  -webkit-transition: ease all 0.5s;
+  -moz-transition: ease all 0.5s;
+  -o-transition: ease all 0.5s;
+  transition: ease all 0.5s;
+}
+.portfolio-box .filter a:hover:after,
+.portfolio-box .filter a.mixitup-control-active:after {
+  width: 100%;
+  height: 1px;
+  background: #000;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  float: right;
+}
+.portfolio-box .filter a:hover:after {
+  top: auto;
+  bottom: 3px;
+}
+
+.portfolio-col {
+  position: relative;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.portfolio-col .hover {
+  position: absolute;
+  width: 100%;
+  bottom: -120px;
+  right: 0;
+  padding: 15px;
+  background: #fff;
+  -webkit-transition: ease all 0.5s;
+     -moz-transition: ease all 0.5s;
+       -o-transition: ease all 0.5s;
+          transition: ease all 0.5s;
+}
+.portfolio-col:hover .hover {
+  bottom: 0;
+}
+
+/*portfolio box White*/
+.portfolio-box .filter-white a {
+  color: #fff;
+}
+.portfolio-box .filter-white a:hover:after,
+.portfolio-box .filter-white a:after,
+.portfolio-box .filter-white a.mixitup-control-active:after {
+  background: #fff;
+}
+
+
+/*portfolio style 01*/
+.portfolio-box-01 .filter a:after{
+  display: none;
+}
+.portfolio-box-01 .filter a {
+  background: #fff;
+  padding: 5px 20px;
+  margin: 0 10px 5px 0;
+  font-size: 13px;
+  border: 3px solid #fff;
+  box-shadow: 0 0 3px rgba(0,0,0,.1);
+  color: #fff;
+}
+
+.portfolio-box-01 .filter a.mixitup-control-active {
+  background: #000;
+}
+
+/*===================================
+  16. Blog Item
+====================================== */
+.blog-item .blog-item-img {
+  position: relative;
+}
+.blog-item .blog-cat-link {
+  padding: 6px 15px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.blog-item-hover .blog-item-img {
+  background: #000;
+  overflow: hidden;
+}
+.blog-item-hover .blog-item-img img {
+  -webkit-transition: all 0.3s ease 0s;
+     -moz-transition: all 0.3s ease 0s;
+       -o-transition: all 0.3s ease 0s;
+          transition: all 0.3s ease 0s;
+}
+
+.blog-item-hover:hover .blog-item-img img {
+  opacity: 0.5;
+  -webkit-transform: scale(1.2, 1.2);
+     -moz-transform: scale(1.2, 1.2);
+       -o-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+
+/*===================================
+  17. Page Piling Sections
+====================================== */
+.pp-scrollable {
+  /*overflow-y: auto;*/
+}
+#pp-nav span, 
+.pp-slidesNav span {
+  width: 13px;
+  height: 13px;
+  border: 1px solid #fff !important;
+}
+#pp-nav li .active span, 
+.pp-slidesNav .active span {
+  background: #fff;
+}
+
+.section-pp .container,
+.section-pp .container-fluid {
+  -webkit-transform: translateY(7rem);
+  -ms-transform: translateY(7rem);
+  -o-transform: translateY(7rem);
+  transform: translateY(7rem);
+  -webkit-transition: all 0.35s 0.6s ease;
+  -o-transition: all 0.35s 0.6s ease;
+  transition: all 0.35s 0.6s ease;
+  opacity: 0;
+}
+.section-pp.active .container,
+.section-pp.active .container-fluid {
+  opacity: 1;
+-webkit-transform: translateY(0);
+-ms-transform: translateY(0);
+-o-transform: translateY(0);
+transform: translateY(0);
+}
+
+.pp-scrollable {
+  width: -webkit-calc(100% - 60px);
+  width:    -moz-calc(100% - 60px);
+  width:      -o-calc(100% - 60px);
+  width:         calc(100% - 60px);
+  right: 60px;
+}
+
+@media (max-width: 991px){
+  .pp-scrollable {
+    width: 100%;
+    right: 0;
+  }
+}
+
+
+/*===================================
+  18. Sticky Siderbar
+====================================== */
+.sticky-siderbar .user-profile {
+  width: 260px;
+  top: 0;
+  position: fixed;
+  z-index: 111;
+}
+
+.sticky-siderbar .wrapper {
+  padding-right: 285px;
+}
+
+/*User Profile*/
+.user-profile .profile-information {
+  list-style-type: none;
+  padding-top: 10px;
+}
+.user-profile .profile-information li {
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  text-transform: uppercase;
+  position: relative;
+  padding-right: 50px;
+  line-height: 30px;
+  margin:5px 0;
+}
+.user-profile .profile-information li .fa {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  text-align: center;
+}
+.user-profile .profile-information li p {
+  margin: 0;
+  font-size: 13px;
+}
+
+@media (max-width: 991px){
+  .sticky-siderbar .user-profile {
+    position: relative;
+    width: 100%;
+  }
+  .sticky-siderbar .wrapper {
+    margin-top: 30px;
+    padding-right: 0;
+  }
+}
+
+
+
+/*===================================
+  19. Heading Styles
+====================================== */
+/*Title 01*/
+.heading-style-1 {
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+  position: relative;
+  padding-right: 25px;
+}
+.heading-style-1:after {
+  border-bottom: 4px solid ;
+  content: "";
+  right: 0;
+  position: absolute;
+  top: 15px;
+  width: 12px;
+}
+
+/*Title 02*/
+.heading-style-2 {
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  padding-right: 35px;
+}
+.heading-style-2:after {
+  border-bottom: 1px solid ;
+  content: "";
+  right: 0;
+  position: absolute;
+  top: 18px;
+  width: 72px;
+}
+
+
+/*Title 03*/
+.heading-style-3 {
+  position: relative;
+  padding: 0 0 8px;
+  margin: 0 0 20px;
+}
+.heading-style-3 span {
+  position: absolute;
+  bottom: 9px;
+  right: 0;
+  width: 80px;
+  height: 8px;
+  opacity: 0.4;
+}
+.heading-style-3 h4{
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  line-height: 22px;
+  font-weight: 800;
+}
+/*Title 04*/
+
+/*Title 05*/
+.heading-style-5 {
+  margin: 0 0 20px 0;
+  padding: 0 0px 15px 40px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #000;
+  font-size: 15px;
+  position: relative;
+  border-bottom: 1px solid #ddd;
+}
+.heading-style-5:after {
+  width: 38px;
+  content: "";
+  position: absolute;
+  right: 0;
+  height: 1px;
+  top: 12px;
+}
+.heading-style-5 i {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+.heading-style-6 {
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: #000;
+  text-transform: uppercase;
+  position: relative;
+  padding-right: 25px;
+}
+.heading-style-6:after {
+  border-bottom: 4px solid ;
+  content: "";
+  right: 0;
+  position: absolute;
+  top: 15px;
+  width: 12px;
+}
+
+/*===================================
+  20. Owl Slider
+====================================== */
+.owl-dots {
+  text-align: center;
+  margin-top: 40px
+}
+.owl-dots .owl-dot {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 4px;
+}
+.owl-dots .owl-dot span {
+  width: 10px;
+  height: 10px;
+  background: #000;
+  opacity: .2;
+  border-radius: 50%;
+  float: right;
+}
+.owl-dots .owl-dot.active span {
+  opacity: 1;
+}
+
+/*===================================
+  21. Skill Bar
+====================================== */
+.skillbar {
+  position: relative;
+  display: inline-block;
+  margin: 35px 0 10px;
+  background: rgba(0, 0, 0, .15);
+  height: 5px;
+  width: 100%;
+  border-radius: 10px;
+  text-align: right;
+}
+.skillbar-bar {
+  height: 5px;
+  border-radius: 10px;
+  width: 0px;
+  background: rgba(0, 0, 0, .70);
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  margin-bottom: 0px;
+}
+.skillbar-title {
+  top: -22px;
+  position: absolute;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.skillbar-white {
+  background: rgba(255, 255, 255, .25)
+}
+.skillbar-white .skillbar-bar {
+  background: #fff;
+}
+
+
+/*===================================
+  22. Feature Box
+====================================== */
+/*Feature Hover*/
+.feature-hover {
+  position: relative;
+}
+.feature-overlay {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 5px;
+  -webkit-transition: ease all 0.3s;
+     -moz-transition: ease all 0.3s;
+       -o-transition: ease all 0.3s;
+          transition: ease all 0.3s;
+}
+
+.feature-hover i,
+.feature-hover .feature-content {
+  position: relative;
+  z-index: 1;
+}
+.feature-hover:hover i {
+  background: #fff;
+  color: #333;
+}
+.feature-hover:hover .feature-content * {
+  color: #fff;
+}
+.feature-hover:hover .feature-overlay {
+  height: 100%;
+}
+/*Hover End*/
+
+.feature-content p:last-child {
+  margin-bottom: 0;
+}
+/*Feature Box 01*/
+.feature-box-01 {
+  padding-right: 75px;
+  position: relative;
+}
+
+.feature-box-01 i {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/*Feature Box 02*/
+.feature-box-02 {
+  padding-left: 75px;
+  position: relative;
+  text-align: left;
+}
+
+.feature-box-02 i {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*Feature Box 03*/
+.feature-box-03 .feature-head{
+  padding-right: 65px;
+  position: relative;
+  min-height: 50px;
+}
+
+.feature-box-03 i {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/*===================================
+  23. List Styles
+====================================== */
+
+/* list style 1 */
+.list-style-none li {
+  list-style: none;
+}
+.list-style-1 li {
+  padding: 5px 0
+}
+
+/* list style 2 */
+.list-style-2 {
+  list-style: none;
+}
+.list-style-2 li {
+  position: relative;
+  padding: 0 0 0 12px;
+  margin: 0 0 9px 0;
+}
+.list-style-2 li:before {
+  content: "";
+  width: 5px;
+  height: 1px;
+  position: absolute;
+  top: 12px;
+  right: 0;
+}
+
+/* list style 3 */
+.list-style-3 {
+  list-style: none;
+}
+.list-style-3 li {
+  position: relative;
+  padding: 0 0 0 22px;
+  margin: 0 0 15px 0;
+}
+.list-style-3 li:before {
+  content: "";
+  width: 10px;
+  height: 1px;
+  position: absolute;
+  top: 13px;
+  right: 0;
+}
+
+/* list style 4 */
+.list-style-4 {
+  list-style: none;
+}
+.list-style-4 li {
+  position: relative;
+  padding: 0 0 10px 22px;
+  margin: 0 0 10px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.list-style-4 li:before {
+  content: "\f00c";
+  position: absolute;
+  top: 1px;
+  right: 0;
+  font-family: 'FontAwesome'
+}
+.list-style-4 li:last-child {
+  border-bottom: 0;
+}
+.list-style-4.list-style-color li {
+  border-color: rgba(255, 255, 255, .15);
+}
+.list-style-4.list-style-color li:before {
+  color: #ff214f
+}
+
+/* list style 5 */
+.list-style-5 {
+  list-style: none;
+}
+.list-style-5 li {
+  position: relative;
+  padding: 5px 0 5px 22px;
+}
+.list-style-5 li:before {
+  content: "\f192";
+  position: absolute;
+  top: 5px;
+  right: 0;
+  font-family: 'FontAwesome';
+  color: #817777
+}
+
+/* list style 6 */
+.list-style-6 {
+  list-style: none;
+}
+.list-style-6 li {
+  position: relative;
+  padding: 0 15px 8px 0;
+  margin: 0 0 8px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.list-style-6 li span {
+  position: absolute;
+  top: 3px;
+  left: 0;
+}
+.list-style-6 li:last-child {
+  border-bottom: none
+}
+.list-style-6 li:before {
+  content: "";
+}
+
+/* list style 7 */
+.list-style-7 {
+  list-style: none;
+}
+.list-style-7 li {
+  padding: 0 0 13px 0;
+  margin: 0 0 10px 0;
+}
+.list-style-7 li:last-child {
+  margin: 0;
+  padding: 0;
+}
+
+/* list style 8 */
+.list-style-8 {
+  list-style: none;
+}
+.list-style-8 li {
+  position: relative;
+  padding: 15px 0;
+  margin: 0 0 4px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.list-style-8 li span {
+  margin-bottom: 2px
+}
+.list-style-8 li p {
+  margin-bottom: 0
+}
+.list-style-8 li:last-child {
+  border-bottom: none
+}
+.list-style-8 li:before {
+  content: "";
+}
+
+/* list style 9 */
+.list-style-9 {
+  list-style: none;
+}
+.list-style-9 li {
+  position: relative;
+  padding: 15px 0;
+  margin: 0 0 4px 0;
+  border-bottom: 1px solid #373737;
+}
+.list-style-9 li span {
+  margin-bottom: 2px
+}
+.list-style-9 li p {
+  margin-bottom: 0
+}
+.list-style-9 li:last-child {
+  border-bottom: none
+}
+.list-style-9 li:before {
+  content: "";
+}
+
+/* list style 10 */
+.list-style-10 {
+  list-style: none;
+}
+.list-style-10 li {
+  padding: 15px 0;
+  margin: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.list-style-10 li i {
+  float: right;
+  margin-top: 5px
+}
+.list-style-10 li span {
+  padding-right: 15px;
+  display: table
+}
+.list-style-10 li:last-child {
+  border-bottom: none
+}
+
+/* list style 6 */
+.list-style-11 {
+  list-style: none;
+}
+.list-style-11 li {
+  position: relative;
+  padding: 0 0 8px 0;
+  margin: 0 0 8px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.list-style-11 li span {
+  position: absolute;
+  top: 3px;
+  left: 0;
+}
+.list-style-11 li:last-child {
+  border-bottom: none
+}
+.list-style-11 li:before {
+  content: "";
+}
