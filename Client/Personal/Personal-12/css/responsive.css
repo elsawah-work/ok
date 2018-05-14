@@ -1,0 +1,211 @@
+/*  -------------------------------------------------------------------------------
+ *  Media Queries
+ *  -------------------------------------------------------------------------------
+ *
+ *  This part contains the all changes that needed for elements for the Bootsrap
+ *  widths like iPhone image in About me section
+ *
+ *  It's divided to the following sections:
+ *
+ *     |
+       |-->   - Width between 1200px to 0
+       |-->   - Width between 767px to 0
+*/
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start GLOBAL CSS Style Responsive
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 767px) {
+
+    .three {
+        display: none !important;
+    }
+    
+    .section-padding {
+        padding: 40px 0 !important;
+    }
+    
+    .titles p {
+        width: 100% !important;
+    }
+	
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start Navigation Menu
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 991px) {
+
+    .header {
+        background: white !important;
+    }
+    
+    .header .left-head {
+        display: none !important;
+    }
+	
+}
+
+@media (max-width: 767px) {
+
+    .menu-nav .icon-menu {
+        display: none !important;
+    }
+    
+    .menu-nav .navbar-right {
+        display: inline-block !important;
+    }
+    
+    #bs-example-navbar-collapse-1 {
+        background: white !important;
+        box-shadow: 0 6px 13px rgba(0, 0, 0, 0.15);
+    }
+    
+    .menu-nav a.navbar-brand.navbar-brand-logo {
+        display: inline-block !important;
+        font-family: 'Raleway', sans-serif;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        font-weight: 400;
+    }
+    
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start Header - Home
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 360px) {
+    
+    .header .right-head .items-head h2 {
+        font-size: 45px;
+    }
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start Section About
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 992px) {
+
+    .first-three img {
+        width: 300px;
+        height: 300px;
+        float: right;
+        display: none !important;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .lines-about span.line:nth-child(1) {
+        left: 92%;
+    }
+    
+    .first-three img {
+        display: none;
+    }
+    
+    .lines-about span.line:nth-child(4) {
+        left: 90%;
+    }
+    
+    .about .about-right {
+        height: auto;
+    }
+	
+}
+
+@media (max-width: 500px) {
+
+    .lines-about span.line:nth-child(4) {
+        left: 82%;
+    }
+	
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start Sections Skills
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 767px) {
+    
+    .second-three {
+        display: none;
+    }
+
+    .skills .skills-left {
+        height: auto;
+    }
+
+    .lines-skills span.line:nth-child(1) {
+        left: 88%;
+    }
+
+    .lines-skills span.line:nth-child(4) {
+        left: 75%;
+    }
+    
+}
+
+@media (max-width: 992px) {
+    
+    .second-three img {
+        display: none !important;
+    }
+
+    .lines-skills span.line:nth-child(4) {
+        left: 84%;
+    }
+    
+    .lines-skills span.line:nth-child(1) {
+        left: 90%;
+    }
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start Sections Blogs
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 990px) {
+
+    .blogs .box-blogs .info-blogs .info-post p {
+        display: none !important;
+    }
+
+}
+
+@media (max-width: 767px) {
+    
+    .blogs .small-post {
+        height: 480px !important;
+    }
+    
+    .blogs .box-blogs .info-blogs .info-post p {
+        display: inline-block !important;
+    }
+
+    
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start Sections Contact
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 767px) {
+    
+    .contact .box-info-contact .info-contacts {
+        margin-top: 15%;
+    }
+    
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  End..
+/*-----------------------------------------------------------------------------------*/
