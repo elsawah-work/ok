@@ -52,5 +52,5 @@ body.blog .btn.back ,
 	border:1px solid #ff5d56;
 }
 .bl-main>section.topright:before {
-	content:url('../../images/separators/red.png');
+	content:url('https://raw.githubusercontent.com/elsawah-work/ok/master/Client/Personal/Personal-15/images/separators/red.png');
 }
