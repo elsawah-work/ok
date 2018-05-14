@@ -889,7 +889,7 @@ div > a > img {
     border-radius: 50%;
     width: 25px;
     height: 25px;
-    line-height: 25px;
+    line-height: 20px;
     text-align: center;
     cursor: pointer;
 }
