@@ -1,0 +1,52 @@
+::selection {
+  background-color: #e81e62;
+  color: #fff;
+}
+::-moz-selection {
+  background-color: #e81e62;
+  color: #fff;
+}
+
+.header-style-2 .navbar-nav > li > a.current,
+.header-pagepiling .pl-navbar li.active a,
+a:hover, 
+a:active,
+.list-style-4 li:before,
+.color-theme {
+	color: #e81e62;	
+}
+
+.header-style-5 .navbar-nav > li > a:after,
+.header-style-4 .navbar-nav > li > a:hover,
+.header-style-4 .navbar-nav > li > a.current,
+.header-style-3 .navbar-nav > li > a:hover,
+.header-style-3 .navbar-nav > li > a.current,
+.header-style-2 .navbar-nav > li > a:after,
+.heading-style-5:after,
+.header-pagepiling .navbar-brand,
+.pp-toggle,
+.portfolio-box-01 .filter a,
+.list-style-2 li:before,
+.list-style-3 li:before,
+.bg-theme {
+	background: #e81e62;
+}
+
+.heading-style-2:after,
+.heading-style-1:after,
+.list-style-4.list-style-color li {
+	border-color: #e81e62;	
+}
+
+.btn.btn-theme {
+    background: #e81e62;
+    border-color: #e81e62;
+    color: #fff;
+}
+
+
+.border-theme { border-color: #e81e62; }
+.border-theme-b { border-bottom-color: #e81e62; }
+.border-theme-t { border-top-color: #e81e62; }
+.border-theme-l { border-left-color: #e81e62; }
+.border-theme-r { border-right-color: #e81e62; }
