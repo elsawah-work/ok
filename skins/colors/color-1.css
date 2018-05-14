@@ -1,9 +1,9 @@
 ::selection {
-  background-color: #9d9d9d;
+  background-color: #15bba4;
   color: #fff;
 }
 ::-moz-selection {
-  background-color: #9d9d9d;
+  background-color: #15bba4;
   color: #fff;
 }
 
@@ -13,7 +13,7 @@ a:hover,
 a:active,
 .list-style-4 li:before,
 .color-theme {
-	color: #9d9d9d;	
+	color: #15bba4;	
 }
 
 .header-style-5 .navbar-nav > li > a:after,
@@ -29,24 +29,24 @@ a:active,
 .list-style-2 li:before,
 .list-style-3 li:before,
 .bg-theme {
-	background: #9d9d9d;
+	background: #15bba4;
 }
 
 .heading-style-2:after,
 .heading-style-1:after,
 .list-style-4.list-style-color li {
-	border-color: #9d9d9d;	
+	border-color: #15bba4;	
 }
 
 .btn.btn-theme {
-    background: #9d9d9d;
-    border-color: #9d9d9d;
+    background: #15bba4;
+    border-color: #15bba4;
     color: #fff;
 }
 
 
-.border-theme { border-color: #9d9d9d; }
-.border-theme-b { border-bottom-color: #9d9d9d; }
-.border-theme-t { border-top-color: #9d9d9d; }
-.border-theme-l { border-left-color: #9d9d9d; }
-.border-theme-r { border-right-color: #9d9d9d; }
+.border-theme { border-color: #15bba4; }
+.border-theme-b { border-bottom-color: #15bba4; }
+.border-theme-t { border-top-color: #15bba4; }
+.border-theme-l { border-left-color: #15bba4; }
+.border-theme-r { border-right-color: #15bba4; }
