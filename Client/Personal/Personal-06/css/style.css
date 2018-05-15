@@ -1,30 +1,4 @@
-/*-----------------------------------------------------------------------------------
 
-Theme Name: Hisham
-Theme URI: http://
-Description: Creative Ope Page Portfolio
-Author: toonah7
-Author URI: http://themeforest.net/user/toonah7
-Version: 1.0
-
------------------------------------------------------------------------------------*/
-/* ----------------------------------------------------------------
-
-	== Table Of Content
-
-		01 - Global
-		02 - Navbar
-		03 - Header
-		04 - Hero
-		05 - Services
-		06 - Portfolio
-		07 - Clients
-		08 - Blog
-		09 - Numbers
-		10 - Contact
-		11 - Responsive
-		
----------------------------------------------------------------- */
 /* -------------------------------------------------------
                     01 Global 
 -------------------------------------------------------- */
@@ -410,7 +384,6 @@ p {
   margin-bottom: 50px;
 }
 .services:after, .services:before {
-  content: '';
   width: 0;
   height: 0;
   border-left: 250px solid transparent;
