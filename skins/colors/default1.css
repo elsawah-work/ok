@@ -22,7 +22,7 @@ body.blog.dark .widget.recent-posts .entry-title a:hover,
 .comments-list .comment-reply:hover,
 body.blog .btn.back,
 .personal-info a.btn.btn-blog {
-	color:#fa5b0f;
+	color:#15bba4;
 }
 
 .readmore.btn,
@@ -42,14 +42,14 @@ body.blog .pagination li.active,
 .comments-form button:active,
 body.blog .btn.back:hover,
 .personal-info a.btn.btn-blog:hover  {
-	background: #fa5b0f;
+	background: #15bba4;
 }
 .resume-card-name {
-	color: #fa5b0f !important;
+	color: #15bba4 !important;
 }
 body.blog .btn.back ,
 .personal-info a.btn.btn-blog {
-	border:1px solid #fa5b0f;
+	border:1px solid #15bba4;
 }
 .bl-main>section.topright:before {
 	content:url('https://raw.githubusercontent.com/elsawah-work/ok/master/Client/Personal/Personal-15/images/separators/orange.png');

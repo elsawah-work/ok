@@ -1,45 +1,4 @@
-/*
-Template Name: Lina - Creative vCard, Resume, CV
-Author: Celtano
-Author URI: http://themeforest.net/user/celtano
-Description: Lina - Creative vCard, Resume, CV
-Version: 1.0
-*/
 
-
-/*------------------------------------------------------------------
-[Table of contents]
-	+ General
-		- Dark Body
-		- Big Titles
-		- Divider
-		- Preloader
-	+ Sections
-		- Top right Section
-		+ Top left Section - About
-			- Personal Informations
-			- Resume Panels
-			- Badges
-		+ Bottom right Section - Portfolio
-			- Direction-Aware Items
-			- Project Panels
-		+ Bottom left Section - Contact
-			+ right Side
-				- Social Media Icons
-			+ left Side
-				- Contact Form
-		+ Blog Section
-			+ Posts
-				- Pagination
-				- Comments
-				- Comments Form
-			+ Sidebar
-				- Search Widget
-				- Recent Posts Widget
-				- Navigation Widget
-				- Tags Widget
-	- Responsive Design Styles
--------------------------------------------------------------------*/
 
 
 /* [ GENERAL ] */
@@ -63,15 +22,22 @@ html {
 }
 
 body {
-	font-family: 'Poppins', sans-serif, Calibri, Arial;
+	font-family: 'Cairo', sans-serif;
 	color: #656c6d;
 	background: #333;
 	font-size: 0.9em;
 	font-weight: 400;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Changa', sans-serif;
+}
 .second-font {
-	font-family: 'Open Sans', sans-serif;
+
 }
 
 .p-none {
@@ -83,7 +49,6 @@ body {
 }
 
 .btn {
-	font-family: 'Poppins', sans-serif, Calibri, Arial;
 	box-shadow: none;
 	border-radius: 0;
 }
@@ -298,7 +263,6 @@ body.blog.dark .comments-list .comment-date {
 	color: rgba(30, 37, 48, 0.07);
 	font-size: 95px;
 	right: 0;
-	letter-spacing: 10px;
 	line-height: 0.7;
 	position: absolute;
 	left: 0;
@@ -408,11 +372,11 @@ body.blog.dark .comments-list .comment-date {
 }
 
 #loader-wrapper .loader-section.section-right {
-	right: 0;
+	left: 0;
 }
 
 #loader-wrapper .loader-section.section-left {
-	left: 0;
+	right: 0;
 }
 
 #loader {
@@ -526,7 +490,6 @@ body.blog.dark .comments-list .comment-date {
 
 .bl-box h2 {
 	width: 100%;
-	letter-spacing: 1px;
 	margin: 0 auto;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -690,6 +653,7 @@ section.bl-expand .bl-icon-close {
 
 .personal-info ul li span {
 	color: #111;
+    float: right;
 }
 .personal-info a.btn {
 	margin-top:-7px;
@@ -920,7 +884,7 @@ span.separator {
 }
 
 .badges h3 span {
-	letter-spacing: 2px;
+
 }
 
 .badges h3 i {
@@ -1077,7 +1041,6 @@ div.bl-panel-items.bl-panel-items-show nav span {
 
 div.bl-panel-items nav span.bl-next-work,
 div.bl-panel-items nav span.bl-previous-work {
-	letter-spacing: 2px;
 	display: block;
 	line-height: 68px;
 	cursor: pointer;
@@ -1734,7 +1697,6 @@ body.blog .pagination li a i {
 
 .widget-tags ul > li a{
 	color:#656c6d;
-   font-family: 'Lato', sans-serif;
 	border: 1px solid #d6d6d6;
 	display: block;
 	font-size: 13px;
@@ -1993,7 +1955,6 @@ body.blog .pagination li a i {
 @media (max-width: 480px) {
 	.title-bg {
 		font-size: 50px;
-		letter-spacing: 6px;
 	}
 	.page-title h2 {
 		font-size:24px;
