@@ -418,8 +418,8 @@
             overflow: hidden;
             cursor: pointer;
             display: block;
-            font-size: 13px;
-            color: #b6b6b6;
+            font-size: 15px;
+            color: #000000;
         }
 
         .jcf-select .jcf-select-opener {
@@ -642,7 +642,7 @@
 
         .jcf-select-drop .jcf-hover,
         .jcf-list-box .jcf-selected {
-            background: #f5f5f5;
+            background: #15bba4;
             color: #2b2b2b;
         }
 
