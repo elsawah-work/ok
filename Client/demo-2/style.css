@@ -1850,43 +1850,43 @@ magazine
     position: relative;
 }
 
-.magazine-asside .widget {
+.magazine-asside .widget2 {
     margin-bottom: 20px;
     padding: 0 20px 20px 20px;
     border-bottom: 1px solid #e6e6e6;
     border-radius: 0;
 }
 
-.magazine-asside .widget .news-article-heading {
+.magazine-asside .widget2 .news-article-heading {
     margin-bottom: 0;
 }
 
-.magazine-asside .widget .news-list li:last-child {
+.magazine-asside .widget2 .news-list li:last-child {
     margin-bottom: 0;
 }
 
-.magazine-asside .widget .cat-list {
+.magazine-asside .widget2 .cat-list {
     margin: 0;
     padding: 0;
 }
 
-.magazine-asside .widget .cat-list li {
+.magazine-asside .widget2 .cat-list li {
     list-style: none;
     margin: 0;
     padding: 15px 0;
     border-bottom: 1px dashed #e6e6e6;
 }
 
-.magazine-asside .widget .cat-list li:first-child {
+.magazine-asside .widget2 .cat-list li:first-child {
     padding-top: 0;
 }
 
-.magazine-asside .widget .cat-list li:last-child {
+.magazine-asside .widget2 .cat-list li:last-child {
     padding-bottom: 0;
     border-bottom: none;
 }
 
-.magazine-asside .widget .cat-list li a {
+.magazine-asside .widget2 .cat-list li a {
     position: relative;
     display: block;
     padding: 0 25px 0 25px;
@@ -1895,7 +1895,7 @@ magazine
     line-height: 14px;
 }
 
-.magazine-asside .widget .cat-list li a .fa {
+.magazine-asside .widget2 .cat-list li a .fa {
     position: absolute;
     top: 0;
     left: 0;
@@ -1903,7 +1903,7 @@ magazine
     line-height: 16px;
 }
 
-.magazine-asside .widget .cat-list li a span {
+.magazine-asside .widget2 .cat-list li a span {
     position: absolute;
     top: 2px;
     right: 0;
@@ -5285,7 +5285,7 @@ ul.post-meta li a:focus {
 /* Aside
 =========================== */
 
-.widget {
+.widget2 {
     position: relative;
     display: block;
     margin-bottom: 30px;
@@ -5293,17 +5293,17 @@ ul.post-meta li a:focus {
     overflow: hidden;
 }
 
-.widget.boxed {
+.widget2.boxed {
     background: #fff;
     border: 1px solid #e3e3e3;
     padding: 20px;
 }
 
-.gray-container .widget.boxed {
+.gray-container .widget2.boxed {
     border: none;
 }
 
-.widget.boxed.categories {
+.widget2.boxed.categories {
     padding: 0;
 }
 
@@ -5333,14 +5333,14 @@ ul.post-meta li a:focus {
     width: 60px;
 }
 
-.widget.boxed.categories .widget-head {
+.widget2.boxed.categories .widget-head {
     margin: 0 0 10px 0;
     padding: 10px 20px;
     color: #fff;
 }
 
-.widget.boxed.categories .widget-head:before,
-.widget.boxed.categories .widget-head:after {
+.widget2.boxed.categories .widget-head:before,
+.widget2.boxed.categories .widget-head:after {
     display: none;
 }
 
@@ -5350,11 +5350,11 @@ aside ul.link-list {
     padding: 0;
 }
 
-.widget.categories ul.link-list {
+.widget2.categories ul.link-list {
     padding: 0;
 }
 
-.widget.boxed.categories ul.link-list {
+.widget2.boxed.categories ul.link-list {
     padding: 0 20px 20px 20px;
 }
 
@@ -5368,7 +5368,7 @@ aside ul.link-list li {
     padding: 0;
 }
 
-.widget.boxed.categories li:last-child {
+.widget2.boxed.categories li:last-child {
     border-bottom: none;
 }
 
@@ -5380,17 +5380,17 @@ aside ul.link-list li .fa {
     top: 16px;
 }
 
-.widget.categories ul.link-list li .fa {
+.widget2.categories ul.link-list li .fa {
     font-size: 16px;
     line-height: 16px;
     top: 19px;
 }
 
-.widget.categories ul.link-list li:first-child .fa {
+.widget2.categories ul.link-list li:first-child .fa {
     top: 4px;
 }
 
-.widget.boxed.categories ul.link-list li:first-child .fa {
+.widget2.boxed.categories ul.link-list li:first-child .fa {
     top: 19px;
 }
 
@@ -5401,7 +5401,7 @@ aside ul.link-list li a {
     padding: 15px 0 15px 15px;
 }
 
-.widget.categories ul.link-list li a {
+.widget2.categories ul.link-list li a {
     padding-left: 30px;
 }
 
@@ -5409,11 +5409,11 @@ aside ul.link-list li:first-child a {
     padding-top: 0;
 }
 
-.widget.boxed.categories ul.link-list li:first-child a {
+.widget2.boxed.categories ul.link-list li:first-child a {
     padding-top: 15px;
 }
 
-.widget.boxed.categories ul.link-list li:last-child a {
+.widget2.boxed.categories ul.link-list li:last-child a {
     padding-bottom: 0;
 }
 
@@ -5440,7 +5440,7 @@ aside ul.link-list li.dropdown ul.dropdown-menu li:last-child a {
 }
 
 aside ul.link-list li.dropdown ul.dropdown-menu li a,
-.widget.boxed.categories ul.link-list li.dropdown ul.dropdown-menu a {
+.widget2.boxed.categories ul.link-list li.dropdown ul.dropdown-menu a {
     background: none;
     font-weight: 400;
     border: none;
@@ -5524,7 +5524,7 @@ aside ul.link-list li.dropdown ul.dropdown-menu li a:hover {
     margin-bottom: 0;
 }
 
-.widget .tag {
+.widget2 .tag {
     display: inline-block;
     padding: 5px 20px;
     text-align: center;
@@ -8289,15 +8289,15 @@ footer.sm-footer h6 {
     color: #000000;
 }
 
-footer .widget {
+footer .widget2 {
     display: block;
     margin: 0 0 30px 0;
     clear: both;
     text-align: right;
 }
 
-footer.sm-footer .widget .network .icon-circle,
-footer .widget .single-network .icon-circle {
+footer.sm-footer .widget2 .network .icon-circle,
+footer .widget2 .single-network .icon-circle {
     margin-right: 5px;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -8306,11 +8306,11 @@ footer .widget .single-network .icon-circle {
     transition: all 0.3s ease-in-out;
 }
 
-footer .widget .single-network .icon-circle {
+footer .widget2 .single-network .icon-circle {
     margin: 20px 10px 0 10px;
 }
 
-footer .widget .single-network .icon-circle {
+footer .widget2 .single-network .icon-circle {
     background: #454856;
 }
 
@@ -9069,7 +9069,7 @@ Tablet (portrait and landscape)
         margin-right: 0;
         margin-bottom: 20px;
     }
-    .sm-footer .widget {
+    .sm-footer .widget2 {
         margin-bottom: 10px;
     }
     .sm-footer .text-right,
