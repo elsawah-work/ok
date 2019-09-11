@@ -154,7 +154,7 @@ header .btn-search-icon {
 .top-social-network {
     float: left;
     padding: 0;
-    margin: 0;
+    margin: -17px 0 0 0;
 }
 
 header .top-social-network {
