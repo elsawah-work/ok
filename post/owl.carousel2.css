@@ -1,0 +1,170 @@
+/**
+ * Owl Carousel v2.2.1
+ * Copyright 2013-2017 David Deutsch
+ * Licensed under  ()
+ */
+/*
+ *  Owl Carousel - Core
+ */
+.owl2-carousel {
+  display: none;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+  /* position relative and z-index fix webkit rendering fonts issue */
+  position: relative;
+  z-index: 1; }
+  .owl2-carousel .owl2-stage {
+    position: relative;
+    -ms-touch-action: pan-Y;
+    -moz-backface-visibility: hidden;
+    /* fix firefox animation glitch */ }
+  .owl2-carousel .owl2-stage:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0; }
+  .owl2-carousel .owl2-stage-outer {
+    position: relative;
+    overflow: hidden;
+    /* fix for flashing background */
+    -webkit-transform: translate3d(0px, 0px, 0px); }
+  .owl2-carousel .owl2-wrapper,
+  .owl2-carousel .owl2-item {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0); }
+  .owl2-carousel .owl2-item {
+    position: relative;
+    min-height: 1px;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none; }
+  .owl2-carousel .owl2-item img {
+    display: block;
+    width: 100%; }
+  .owl2-carousel .owl2-nav.disabled,
+  .owl2-carousel .owl2-dots.disabled {
+    display: none; }
+  .owl2-carousel .owl2-nav .owl2-prev,
+  .owl2-carousel .owl2-nav .owl2-next,
+  .owl2-carousel .owl2-dot {
+    cursor: pointer;
+    cursor: hand;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+  .owl2-carousel.owl2-loaded {
+    display: block; }
+  .owl2-carousel.owl2-loading {
+    opacity: 0;
+    display: block; }
+  .owl2-carousel.owl2-hidden {
+    opacity: 0; }
+  .owl2-carousel.owl2-refresh .owl2-item {
+    visibility: hidden; }
+  .owl2-carousel.owl2-drag .owl2-item {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+  .owl2-carousel.owl2-grab {
+    cursor: move;
+    cursor: grab; }
+  .owl2-carousel.owl2-rtl {
+    direction: rtl; }
+  .owl2-carousel.owl2-rtl .owl2-item {
+    float: right; }
+
+/* No Js */
+.no-js .owl2-carousel {
+  display: block; }
+
+/*
+ *  Owl Carousel - Animate Plugin
+ */
+.owl2-carousel .animated {
+  animation-duration: 1000ms;
+  animation-fill-mode: both; }
+
+.owl2-carousel .owl2-animated-in {
+  z-index: 0; }
+
+.owl2-carousel .owl2-animated-out {
+  z-index: 1; }
+
+.owl2-carousel .fadeOut {
+  animation-name: fadeOut; }
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+/*
+ * 	Owl Carousel - Auto Height Plugin
+ */
+.owl2-height {
+  transition: height 500ms ease-in-out; }
+
+/*
+ * 	Owl Carousel - Lazy Load Plugin
+ */
+.owl2-carousel .owl2-item .owl2-lazy {
+  opacity: 0;
+  transition: opacity 400ms ease; }
+
+.owl2-carousel .owl2-item img.owl2-lazy {
+  transform-style: preserve-3d; }
+
+/*
+ * 	Owl Carousel - Video Plugin
+ */
+.owl2-carousel .owl2-video-wrapper {
+  position: relative;
+  height: 100%;
+  background: #000; }
+
+.owl2-carousel .owl2-video-play-icon {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  left: 50%;
+  top: 50%;
+  margin-left: -40px;
+  margin-top: -40px;
+  background: url("owl.video.play.png") no-repeat;
+  cursor: pointer;
+  z-index: 1;
+  -webkit-backface-visibility: hidden;
+  transition: transform 100ms ease; }
+
+.owl2-carousel .owl2-video-play-icon:hover {
+  -ms-transform: scale(1.3, 1.3);
+      transform: scale(1.3, 1.3); }
+
+.owl2-carousel .owl2-video-playing .owl2-video-tn,
+.owl2-carousel .owl2-video-playing .owl2-video-play-icon {
+  display: none; }
+
+.owl2-carousel .owl2-video-tn {
+  opacity: 0;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: opacity 400ms ease; }
+
+.owl2-carousel .owl2-video-frame {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  width: 100%; }
