@@ -590,7 +590,7 @@ section.bl-expand .bl-icon-close {
 .bl-main>section.topright {
 	top: 0;
 	right: 0;
-	background-image: url('../images/men.jpg');
+	background-image: url('https://raw.githack.com/elsawah-work/ok/master/Client/Personal/Personal-15/images/men.jpg');
 	position: relative;
 	background-size: cover;
 	background-repeat: no-repeat;
