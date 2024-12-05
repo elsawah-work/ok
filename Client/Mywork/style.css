@@ -4479,7 +4479,7 @@ Gallery
 }
 
 .img-wrapper:hover  .img-blur{
-	filter: url(https://rawgit.com/elsawah-work/ok/master/css/blur.svg#blur);
+	filter: url(https://cdn.jsdelivr.net/gh/elsawah-work/ok/css/blur.svg#blur);
 	filter: blur(3px);
 	-webkit-filter: blur(3px);
 	filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
