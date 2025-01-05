@@ -32,6 +32,12 @@ if ($('#powered')['length'] !== 0) {
 } else {
     destory()
 };
-if (Link['indexOf']('post-preview') == -1 && Link['indexOf']('www.blogger') == -1 && Link['indexOf']('b/preview') == -1 && Link['indexOf']('template-editor') == -1 && Loct['indexOf']('faceblogorg.blogspot.com') == -1 && Loct['indexOf']('faceblog.org') == -1 && Loct['indexOf']('faceblog.org') == -1) {
+if (Link['indexOf']('post-preview') == -1 && 
+    Link['indexOf']('www.blogger') == -1 && 
+    Link['indexOf']('b/preview') == -1 && 
+    Link['indexOf']('template-editor') == -1 && 
+    Loct['indexOf']('faceblogorg.blogspot.com') == -1 && 
+    Loct['indexOf']('faceblog.org') == -1 && 
+    Loct['indexOf']('faceblog.org') == -1) {
     redirect()
 }
